@@ -1,0 +1,40 @@
+---
+title: "🗓️ Session 1: Foundations and Contested Definitions"
+date: "2025-09-19"
+date-modified: last-modified
+---
+
+Abstract
+
+## 👨‍🏫 Lecture Slides 
+
+Either click on the slide area below or click 
+[here]() to download the slides.
+
+```{=html}
+<div class="embed-container">
+  <iframe 
+  src="/content/material/slides/E2-Basics-Functions.pdf" 
+  style="border: 0.5px" 
+  width="80%"
+  height="80%"
+  ></iframe>
+</div>
+```
+
+
+## 📚 Mandatory Reading
+
+- Snapshot of the Human Development Report [-@undp2024]
+- Chang [-@chang2011]
+- Chapter 1 in Escobar [-@escobar1995]
+
+### 🏆 Further readings
+
+- Chapter 1 in Todaro and Smith [-@todaro2020]
+
+## ✍️ Coursework (optional)
+
+- Write a short essay, not more than 500 words, in which you compare the definition and assessment of 'development' used in two of the three readings of your choice
+- Choose one contemporary development issue (e.g., China's Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.
+- If you have questions or problems, please post them in the Moodle forum

@@ -20,8 +20,7 @@ format:
 You will know the most influential theories about the determinants of socio-economic
 development. You will be able to identify and reflect on the ideas of 'progress' and 'good life'
 underlying these theories. Moreover, you will learn to reproduce and evaluate the common patterns of
-argumentation on the relationship between 'development', 'economic growth' and 'plan-
-etary boundaries'.
+argumentation on the relationship between 'development', 'economic growth' and 'planetary boundaries'.
 
 ## Learning Goals
 
@@ -51,14 +50,14 @@ Upon completion of this seminar, you will be able to:
 
 ::: {.column width="50%"}
 ### Prerequisites
-The lecture is an elective in the third or fifth semester. While there are no formal prerequisites, successful completion of the Economics I and II modules is strongly recommended.
+The lecture is an elective in the third or fifth semester. While there are no formal prerequisites, successful completion of the Economics I and II modules is strongly recommended. You also benefit from having completed the course "Applied Data Science".
 
 ### Course Details
 
 - **Credits:** 5 CP (150 total hours)
 - **Lecture Time:** 15 hours (10 × 1.5 hours)
 - **Self-Study:** 135 hours
-- **Location:** MAD, room TBD
+- **Location:** MAD, room 024
 :::
 
 ::: {.column width="50%"}
@@ -171,46 +170,47 @@ I strongly recommend that you spread your study time fairly evenly throughout th
 ::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 ### 📚 Mandatory Reading
-- Sen, A. (1999). Development as Freedom, Chapter 1
-- Escobar, A. (1995). Encountering Development, Chapter 1
+
+- Snapshot of the Human Development Report [-@undp2024]
+- Chang [-@chang2011]
+- Chapter 1 in Escobar [-@escobar1995]
 :::
 :::
 
 ::: {.content-visible when-format="pdf"}
 #### 📚 Mandatory Reading
 
-- Sen, A. (1999). Development as Freedom, Chapter 1
-- Escobar, A. (1995). Encountering Development, Chapter 1
+- Snapshot of the Human Development Report [-@undp2024]
+- Chang [-@chang2011]
+- Chapter 1 in Escobar [-@escobar1995]
 :::
 
 ::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 ### 🏆 Further readings
-- Wallerstein, I. (1979). The Capitalist World-Economy, Chapter 1
-- Ricardo, D. (1817). On the Principles of Political Economy and Taxation, Chapter 7 (on comparative advantage)
-- Frank, A. G. (1998). ReORIENT: Global Economy in the Asian Age, Chapter 1
+- TBD
 :::
 :::
 
 ::: {.content-visible when-format="pdf"}
 #### 🏆 Further readings
 
-- Wallerstein, I. (1979). The Capitalist World-Economy, Chapter 1
-- Ricardo, D. (1817). On the Principles of Political Economy and Taxation, Chapter 7 (on comparative advantage)
-- Frank, A. G. (1998). ReORIENT: Global Economy in the Asian Age, Chapter 1
+- TBD
 :::
 
 ::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 ### ✍️ Coursework (optional)
-Choose one contemporary development issue (e.g., China's Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.
+- Write a short essay, not more than 500 words, in which you compare the definition and assessment of 'development' used in two of the three readings of your choice
+- Choose one contemporary development issue (e.g., China's Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.
 :::
 :::
 
 ::: {.content-visible when-format="pdf"}
 #### ✍️ Coursework (optional)
 
-Choose one contemporary development issue (e.g., China's Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.
+- Write a short essay, not more than 500 words, in which you compare the definition and assessment of 'development' used in two of the three readings of your choice
+- Choose one contemporary development issue (e.g., China's Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.
 :::
 
 ---
@@ -345,6 +345,7 @@ Download data for 5 development indicators for 10 countries. Create a ranking ta
 ::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 ### 📚 Mandatory Reading
+- Sen, A. (1999). Development as Freedom, Chapter 1
 - Sen, A. (1999). Development as Freedom, Chapters 3-4
 - Alkire, S. (2010). Human Development: Definitions, Critiques, and Related Concepts
 :::
@@ -949,9 +950,9 @@ Design a research study to evaluate the impact of a development intervention of 
 
 ---
 
-::: {.callout-note}
+::: {.callout-tip}
 #### Contact Information
 For questions regarding the course content or logistics, please use the Moodle discussion forums or attend office hours.
 :::
 
-*This syllabus is version 1.0 dated March 10, 2025. The most recent version can be found on the course website.*
+*This syllabus is version 1.0 dated August 20, 2025. The most recent version can be found on the course website.*

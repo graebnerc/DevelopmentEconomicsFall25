@@ -1,25 +1,45 @@
 ---
-title: "Title"
-subtitle: "Subtitle"
+title: "Development Economics"
+subtitle: "Fall Semester 2025"
 ---
 
 # 📑 The course in brief
 
 **Focus:** 
 
-...
+- Discuss the concept of 'development' from an economic perspective
+- Learn about different notions of development and their policy implications
+- Understand how 'development' can be conceptualized, measured, and explained
 
 **How:** 
 
-...
+- The course is lecture-based, with interactive elements
 
 **Prerequisites:**
 
-...
+- Successful completion of the Economics I and II modules is strongly recommended. 
+- You also benefit from having completed the course "Applied Data Science".
+
 
 # 🎯 Learning Objectives
 
--	...
+**Expertise:**
+
+- Define and critically evaluate the most important concepts of (sustainable) economic development and commonly used development indicators
+- Critically question and assess different approaches to defining and measuring development
+- Evaluate policy measures in terms of their expected impact on economic development and identify their underlying theoretical foundations
+
+**Methodological Competence:**
+
+- Independently collect development data from publicly available sources and use it to analyze determinants and implications of economic development
+- Identify and evaluate the theories underlying development programs and policies
+- Apply both empirical and theoretical methods from development economics to analyze development-related problems and critically assess them
+
+**Social and Personal Skills:**
+
+- Critically question common notions of 'development' and articulate and justify your own ideas about appropriate definitions and measurements of economic development
+- Describe current debates on development policy and take well-founded positions on concrete development policy measures
+- Identify the data necessary to answer development theory questions and, when needed, acquire and analyze this data yourself while explaining your findings
 
 
 
