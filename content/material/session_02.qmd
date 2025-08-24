@@ -1,6 +1,6 @@
 ---
-title: "🗓️ Session 1: Foundations and Contested Definitions"
-date: "2025-09-19"
+title: "🗓️ Session 2: Data and Measurement in Development"
+date: "2025-09-26"
 date-modified: last-modified
 ---
 
@@ -25,18 +25,14 @@ Either click on the slide area below or click
 
 ## 📚 Mandatory Reading
 
-- Snapshot of the Human Development Report [-@undp2024]
-- Chang [-@chang2011]
-- Chapter 1 in Escobar [-@escobar1995]
+- Tutorial on [Important measures of development](../tutorials/MeasuringDevelopment/index.qmd)
 
 ### 🏆 Further readings
 
-- Chapter 1 in Todaro and Smith [-@todaro2020]
-- Chapter 1 in De Janvry and Sadoulet [-@dejanvry2021]
+- Chapter 2 in Todaro and Smith [-@todaro2020]
 
 ## ✍️ Coursework (optional)
 
 - Write a short essay, not more than 500 words, in which you compare the definition and assessment of 'development' used in two of the three readings of your choice
 - Choose one contemporary development issue (e.g., China's Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.
-- If you have questions or problems, please post them in the [Moodle](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258) forum
-
+- If you have questions or problems, please post them in the [Moodle](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258)  forum
