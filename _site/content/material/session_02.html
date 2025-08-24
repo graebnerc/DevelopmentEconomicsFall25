@@ -8,7 +8,7 @@
 
 <meta name="author" content="Claudius Gräbner-Radkowitsch">
 
-<title>Development Economics</title>
+<title>🗓️ Session 2: Data and Measurement in Development – Development Economics</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,28 +21,48 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./content/index.html" rel="next">
-<link href="./figures/icons/course_favicon.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-4472610dac5aab34549718e0504e5769.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../content/tutorials.html" rel="next">
+<link href="../../content/material/session_01.html" rel="prev">
+<link href="../../figures/icons/course_favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4472610dac5aab34549718e0504e5769.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +91,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Development Economics">
-<meta property="og:description" content="Fall Semester 2025">
+<meta property="og:title" content="🗓️ Session 2: Data and Measurement in Development – Development Economics">
+<meta property="og:description" content="">
 <meta property="og:image" content="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==">
 <meta property="og:site_name" content="Development Economics">
 </head>
@@ -84,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Development Economics</span>
     </a>
   </div>
@@ -103,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">🏠 Home</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/material/index.html">🗓️ Material</a></li><li class="breadcrumb-item"><a href="../../content/material/session_02.html">Session 02</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -117,13 +137,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🏠 Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🏢 Getting Started</span></a>
   </div>
 </li>
@@ -138,31 +158,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/material/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/material/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/material/SeminarDescription.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/material/SeminarDescription.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seminar Description</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/material/session_01.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/material/session_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Session 01</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/material/session_02.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/material/session_02.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Session 02</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/tutorials.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/tutorials.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">💻 Tutorials</span></a>
   </div>
 </li>
@@ -178,18 +198,21 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#the-course-in-brief" id="toc-the-course-in-brief" class="nav-link active" data-scroll-target="#the-course-in-brief">📑 The course in brief</a></li>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">🎯 Learning Objectives</a></li>
+  <li><a href="#lecture-slides" id="toc-lecture-slides" class="nav-link active" data-scroll-target="#lecture-slides">👨‍🏫 Lecture Slides</a></li>
+  <li><a href="#mandatory-reading" id="toc-mandatory-reading" class="nav-link" data-scroll-target="#mandatory-reading">📚 Mandatory Reading</a>
+  <ul class="collapse">
+  <li><a href="#further-readings" id="toc-further-readings" class="nav-link" data-scroll-target="#further-readings">🏆 Further readings</a></li>
+  </ul></li>
+  <li><a href="#coursework-optional" id="toc-coursework-optional" class="nav-link" data-scroll-target="#coursework-optional">✍️ Coursework (optional)</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/material/index.html">🗓️ Material</a></li><li class="breadcrumb-item"><a href="../../content/material/session_02.html">Session 02</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Development Economics</h1>
-<p class="subtitle lead">Fall Semester 2025</p>
+<h1 class="title">🗓️ Session 2: Data and Measurement in Development</h1>
 </div>
 
 
@@ -212,7 +235,19 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
       
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">26 09 2025</p>
+    </div>
+  </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">24 08 2025</p>
+    </div>
+  </div>
     
   </div>
   
@@ -221,51 +256,43 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="the-course-in-brief" class="level1">
-<h1>📑 The course in brief</h1>
-<p><strong>Focus:</strong></p>
+<p>Abstract</p>
+<section id="lecture-slides" class="level2">
+<h2 class="anchored" data-anchor-id="lecture-slides">👨‍🏫 Lecture Slides</h2>
+<p>Either click on the slide area below or click <a href="">here</a> to download the slides.</p>
+<div class="embed-container">
+  <iframe src="../../content/material/slides/E2-Basics-Functions.pdf" style="border: 0.5px" width="80%" height="80%"></iframe>
+</div>
+</section>
+<section id="mandatory-reading" class="level2">
+<h2 class="anchored" data-anchor-id="mandatory-reading">📚 Mandatory Reading</h2>
 <ul>
-<li>Discuss the concept of ‘development’ from an economic perspective</li>
-<li>Learn about different notions of development and their policy implications</li>
-<li>Understand how ‘development’ can be conceptualized, measured, and explained</li>
+<li>Tutorial on <a href="../../content/tutorials/MeasuringDevelopment/index.html">Important measures of development</a></li>
 </ul>
-<p><strong>How:</strong></p>
+<section id="further-readings" class="level3">
+<h3 class="anchored" data-anchor-id="further-readings">🏆 Further readings</h3>
 <ul>
-<li>The course is lecture-based, with interactive elements</li>
-</ul>
-<p><strong>Prerequisites:</strong></p>
-<ul>
-<li>Successful completion of the Economics I and II modules is strongly recommended.</li>
-<li>You also benefit from having completed the course “Applied Data Science”.</li>
+<li>Chapter 2 in Todaro and Smith <span class="citation" data-cites="todaro2020">(<a href="#ref-todaro2020" role="doc-biblioref">2020</a>)</span></li>
 </ul>
 </section>
-<section id="learning-objectives" class="level1">
-<h1>🎯 Learning Objectives</h1>
-<p><strong>Expertise:</strong></p>
+</section>
+<section id="coursework-optional" class="level2">
+<h2 class="anchored" data-anchor-id="coursework-optional">✍️ Coursework (optional)</h2>
 <ul>
-<li>Define and critically evaluate the most important concepts of (sustainable) economic development and commonly used development indicators</li>
-<li>Critically question and assess different approaches to defining and measuring development</li>
-<li>Evaluate policy measures in terms of their expected impact on economic development and identify their underlying theoretical foundations</li>
+<li>Write a short essay, not more than 500 words, in which you compare the definition and assessment of ‘development’ used in two of the three readings of your choice</li>
+<li>Choose one contemporary development issue (e.g., China’s Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.</li>
+<li>If you have questions or problems, please post them in the <a href="https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258">Moodle</a> forum</li>
 </ul>
-<p><strong>Methodological Competence:</strong></p>
-<ul>
-<li>Independently collect development data from publicly available sources and use it to analyze determinants and implications of economic development</li>
-<li>Identify and evaluate the theories underlying development programs and policies</li>
-<li>Apply both empirical and theoretical methods from development economics to analyze development-related problems and critically assess them</li>
-</ul>
-<p><strong>Social and Personal Skills:</strong></p>
-<ul>
-<li>Critically question common notions of ‘development’ and articulate and justify your own ideas about appropriate definitions and measurements of economic development</li>
-<li>Describe current debates on development policy and take well-founded positions on concrete development policy measures</li>
-<li>Identify the data necessary to answer development theory questions and, when needed, acquire and analyze this data yourself while explaining your findings</li>
-</ul>
-<hr>
-<p><a href="https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258"> <button class="button-61">The main course on moodle</button> </a></p>
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-todaro2020" class="csl-entry" role="listitem">
+Todaro, M. P. and Smith, S. C. (2020) <em>Economic development</em>, Thirteenth Edition., Hoboken: Pearson.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -672,10 +699,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../../content/material/session_01.html" class="pagination-link" aria-label="Session 01">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Session 01</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./content/index.html" class="pagination-link" aria-label="🏢 Getting Started">
-        <span class="nav-page-text">🏢 Getting Started</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/tutorials.html" class="pagination-link" aria-label="💻 Tutorials">
+        <span class="nav-page-text">💻 Tutorials</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
