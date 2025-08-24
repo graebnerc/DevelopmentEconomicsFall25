@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Session 2: Data and Measurement in Development"
+title: "🗓️ Session 2: Data and Measurement of Development"
 date: "2025-09-26"
 date-modified: last-modified
 ---
