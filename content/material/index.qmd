@@ -4,7 +4,9 @@ title: "Material overview"
 
 ## 📚 General references
 
-TBA
+- [Developing Economics Blog](https://developingeconomics.org/): a critical blog on development topics
+- [Hierarchies of Development Podcast](https://www.eadi.org/news/podcast-hierarchies-of-development): critical podcast with very interesting, longer interviews about specific development topics
+- [Our World in Data](https://ourworldindata.org/): huge collection of data, together with a blog that is usually in the progressive-mainstream direction
 
 ## 🔖 Session-specific material
 
