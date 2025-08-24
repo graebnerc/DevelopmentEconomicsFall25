@@ -31,12 +31,12 @@ reading lists [here](/content/material/).
 
 EUF students can
 register for the Moodle course
-[TBD]() 
-using the password `Bla`.
+[16258](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258) 
+using the password `DevEcon25`.
 
 # 💌 Contact and discussion
 
-For asking questions and starting discussions, please use the forum in Moodle.
+For asking questions and starting discussions, please use the forum in [Moodle](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258).
 
 <!---
 # 💻 Class Groups

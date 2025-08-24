@@ -5,10 +5,11 @@ project:
   render: # Add here all folders that should be rendered
     - "index.qmd"
     - "content/index.qmd"
+    - "content/tutorials.qmd"
     - "content/material/*.qmd"
     - "content/material/session*/*.qmd"
-    # - "content/statrecap/*.qmd"
-    # - "content/statrecap/*/*.qmd"
+    - "content/tutorials/*.qmd"
+    - "content/tutorials/*/*.qmd"
 
 website:
   title: "Development Economics" # Title of website shown on top left
@@ -34,8 +35,10 @@ website:
            text: Seminar Description
          - href: content/material/session_01.qmd
            text: Session 01
-      # - href: content/statrecap.qmd
-      #   text: "💻 Name of blog based content"
+         - href: content/material/session_02.qmd
+           text: Session 02
+         - href: content/tutorials.qmd
+           text: "💻 Tutorials"
 
   navbar:
     background: primary

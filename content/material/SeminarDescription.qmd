@@ -63,8 +63,8 @@ The lecture is an elective in the third or fifth semester. While there are no fo
 ::: {.column width="50%"}
 ### Course Resources
 
-- **Moodle Room:** [15556](https://moodle.uni-flensburg.de/)
-- **Moodle Password:** Development25
+- **Moodle Room:** [16258](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258) 
+- **Moodle Password:** `DevEcon25`
 - **Course homepage:** [developmenteconomics25fall.netlify.app](https://developmenteconomics25fall.netlify.app/)
 
 ### Recommended Study Schedule
@@ -82,7 +82,8 @@ The lecture is an elective in the third or fifth semester. While there are no fo
 ## Schedule and Logistics
 
 ::: {.callout-important}
-**Note:** This schedule is subject to change as the course progresses. Announcements will be made via Moodle. The latest version of the syllabus will be made available here.
+**Note:** This schedule is subject to change as the course progresses. Announcements will be made via [Moodle](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258). 
+The latest version of the syllabus will be made available here.
 :::
 
 | # | Week | Date   | Topic         |
@@ -188,6 +189,7 @@ I strongly recommend that you spread your study time fairly evenly throughout th
 ::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 ### 🏆 Further readings
+
 - TBD
 :::
 :::
@@ -201,6 +203,7 @@ I strongly recommend that you spread your study time fairly evenly throughout th
 ::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 ### ✍️ Coursework (optional)
+
 - Write a short essay, not more than 500 words, in which you compare the definition and assessment of 'development' used in two of the three readings of your choice
 - Choose one contemporary development issue (e.g., China's Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.
 :::
@@ -258,31 +261,29 @@ I strongly recommend that you spread your study time fairly evenly throughout th
 ::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 ### 📚 Mandatory Reading
-- Jerven, M. (2013). Poor Numbers, Chapters 1-2
-- Deaton, A. (2010). Understanding the Mechanisms of Economic Development, pp. 1-15
+
+- Gräbner-Radkowitsch (2025). Important measures of development.
 :::
 :::
 
 ::: {.content-visible when-format="pdf"}
 #### 📚 Mandatory Reading
 
-- Jerven, M. (2013). Poor Numbers, Chapters 1-2
-- Deaton, A. (2010). Understanding the Mechanisms of Economic Development, pp. 1-15
+- Gräbner-Radkowitsch (2025). Important measures of development.
 :::
 
 ::: {.content-visible when-format="html"}
 ::: {.callout-note collapse="true"}
 ### 🏆 Further readings
-- Alkire, S. & Foster, J. (2011). Counting and Multidimensional Poverty Measurement
-- Ravallion, M. (2012). Troubling Tradeoffs in the Human Development Index
+
+- Chapter 2 in Todaro and Smith [-@todaro2020]
 :::
 :::
 
 ::: {.content-visible when-format="pdf"}
 #### 🏆 Further readings
 
-- Alkire, S. & Foster, J. (2011). Counting and Multidimensional Poverty Measurement
-- Ravallion, M. (2012). Troubling Tradeoffs in the Human Development Index
+- Chapter 2 in Todaro and Smith [-@todaro2020]
 :::
 
 ::: {.content-visible when-format="html"}
