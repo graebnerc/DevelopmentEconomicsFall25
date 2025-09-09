@@ -18,10 +18,9 @@ format: html
 
 # 📍 Lecture
 
-- Fridays 09:15-10:45 in MAD (room TBD)
+- Fridays 09:15-10:45 in MAD (room 024)
 
-Please make sure to check out the most recent version of the seminar timetable 
-since lecture dates might differ from one week to another. 
+Please make sure to check out the most recent version of the seminar timetable. 
 The most recent version can be found [here](material/SeminarDescription.qmd).
 
 # 📂 Material

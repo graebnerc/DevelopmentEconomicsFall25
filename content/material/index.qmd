@@ -16,6 +16,6 @@ title: "Material overview"
 |   Session    | Topic                                                         |
 |:------------:|:--------------------------------------------------------------|
 |   [1](#s1)   | [ Foundations and Contested Definition](/content/material/session_01.qmd)        |
-|   [2](#s2)   | [ Data and Measurement of Developmen](/content/material/session_02.qmd)        |
+|   [2](#s2)   | [ Measuring Development](/content/material/session_02.qmd)        |
 
 

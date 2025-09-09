@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Session 1: Foundations and Contested Definitions"
+title: "🗓️ Session 1:Introduction and the meaning of 'development'"
 date: "2025-09-19"
 date-modified: last-modified
 ---
@@ -9,12 +9,12 @@ Abstract
 ## 👨‍🏫 Lecture Slides 
 
 Either click on the slide area below or click 
-[here]() to download the slides.
+[here](S01-DefiningDevelopment.pdf) to download the slides.
 
 ```{=html}
 <div class="embed-container">
   <iframe 
-  src="/content/material/slides/E2-Basics-Functions.pdf" 
+  src="/content/material/slides/S01-DefiningDevelopment.pdf" 
   style="border: 0.5px" 
   width="80%"
   height="80%"
@@ -23,7 +23,7 @@ Either click on the slide area below or click
 ```
 
 
-## 📚 Mandatory Reading
+## 📚 Follow-up Reading
 
 - Snapshot of the Human Development Report [-@undp2024]
 - Chang [-@chang2011]
@@ -34,9 +34,10 @@ Either click on the slide area below or click
 - Chapter 1 in Todaro and Smith [-@todaro2020]
 - Chapter 1 in De Janvry and Sadoulet [-@dejanvry2021]
 
-## ✍️ Coursework (optional)
+## ✍️ Coursework
 
-- Write a short essay, not more than 500 words, in which you compare the definition and assessment of 'development' used in two of the three readings of your choice
-- Choose one contemporary development issue (e.g., China's Belt and Road Initiative, fair trade, or resource extraction in Africa). Write a 300-word comparison of how zero-sum and mutual benefit approaches would interpret this issue differently.
+- Add your thoughts on the following questions to the Notepad on Moodle:
+  1. What do you remember as the key message of the four theories/approaches introduced?
+  2. What kind of socio-ecological challenges come to your attention or are obscured if you take one of the perspectives?
+  3. What are aspects that you particularly like/disagree with?
 - If you have questions or problems, please post them in the [Moodle](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258) forum
-
