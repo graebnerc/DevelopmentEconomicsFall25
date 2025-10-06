@@ -175,6 +175,13 @@
     "text": "Footnotes\n\n\nSometimes you hear GDI (Gross Domestic Income), which measures the same economic activity from the income side and should theoretically be equivalent to GDP.↩︎\n Note that you need to remove the sub-heading rows such as ‘Very high human development’ from the Excel file, replace the variable descriptions in line 6 with the variable names from line 5, and remove row 7 with the years to read it into R without problems.↩︎\nIf you are interested in this topic, you might want to check out books like Zucman and Piketty (2016) or Saez and Zucman (2019).↩︎\nMore information about capabilities and their accumulation can be found in Aistleitner et al. (2021). An overview over the measure of economic complexit is given on the Atlas website or, on a more academic level, in Hidalgo (2021).↩︎\nMore information about the product space can be found in the original article, which is still worth reading (Hidalgo et al. 2007).↩︎\nAs in many cases, data is available for women and men only; data about other gender is usually hard to obtain.↩︎"
   },
   {
+    "objectID": "content/material/session_03_interactive-exercise-followup.html",
+    "href": "content/material/session_03_interactive-exercise-followup.html",
+    "title": "Reflection Questions",
+    "section": "",
+    "text": "Post-Lecture Reflection\nNow that you’ve learned about Amartya Sen’s and Martha Nussbaum’s approaches to capabilities, reflect on the exercise we did at the beginning of class.\n\n\n\nQuestion 1: Comparing Your List to Nussbaum’s\nMartha Nussbaum’s 10 Central Capabilities:\n\nLife (being able to live a normal lifespan)\nBodily health (including nourishment, shelter)\nBodily integrity (freedom of movement, security, reproductive choice)\nSenses, imagination, and thought (education, expression)\nEmotions (being able to love, grieve, feel)\nPractical reason (being able to form conception of good life)\nAffiliation (being able to live with others, social respect)\nOther species (being able to live with concern for nature)\nPlay (being able to laugh, enjoy recreation)\nControl over one’s environment (political and material)\n\nYour reflection:\nWhat overlaps between your list and Nussbaum’s?\n  \n  \n  \nWhat did you include that Nussbaum didn’t?\n  \n  \n  \nWhat did Nussbaum include that you didn’t?\n  \n  \n  \n\n\n\nQuestion 2: The Sen-Nussbaum Debate\nWhich philosopher’s approach resonates more with you?\n☐ Martha Nussbaum’s approach: We need a clear, universal list to hold governments accountable and protect human dignity\n☐ Amartya Sen’s approach: Each society should democratically deliberate and decide which capabilities matter most in their context\n\n\n\nQuestion 3: Explain Your Position\nWhy does this approach resonate with you?\n  \n  \n  \n  \n  \nCan you think of a concrete example where your position would lead to different development policy than the alternative position?\n  \n  \n  \n  \n  \n\n\n\nQuestion 4: Critical Reflection\nWhat are potential problems or limitations with the approach you chose?\n  \n  \n  \n  \n\n\n\nQuestion 5: The Exercise Experience\nDid your thinking about universal versus context-specific approaches change during the class discussion? If so, how?\n  \n  \n  \n  \n\n\n\nAdditional resources and readings\nSee the course website\n\nOptional: Submit your reflections to the Moodle forum or keep them for your own study notes."
+  },
+  {
     "objectID": "content/material/session_02.html",
     "href": "content/material/session_02.html",
     "title": "🗓️ Session 2: Measuring Development",
@@ -485,7 +492,7 @@
     "href": "content/material/session_03.html#coursework",
     "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
     "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n\n\n\n\n\n\nTipOptional Exercises\n\n\n\n\n\nHere are some additinal exercises I suggest for a recap of the session and exam preparation. If questions emerge, feel free to post on the Moodle forum.\n\nExercise 1: HDI Discrepancy Analysis (350-400 words)\nCompare HDI rankings with GDP per capita rankings for 10 countries of your choice using the UNDP database.\n\nIdentify the 3 biggest positive discrepancies (countries ranking higher on HDI than GDP)\nIdentify the 3 biggest negative discrepancies (countries ranking lower on HDI than GDP)\nExplain these differences using capabilities theory concepts (functionings, conversion factors, instrumental freedoms)\n\n\n\nExercise 2: Capability Assessment (400 words)\nChoose a specific development challenge you’re familiar with (e.g., urban slums, rural education access, youth unemployment, refugee integration). Analyze it through the capabilities lens:\n\nWhich functionings are people unable to achieve?\nWhat conversion factors (personal, social, environmental) are at play?\nWhich of Sen’s five instrumental freedoms are lacking?\nWhat would a capability-enhancing policy look like?\n\n\n\nExercise 3: The Sen-Nussbaum Debate (300-350 words)\nReflect on the interactive exercise from class:\n\nCompare your list to Nussbaum’s 10 central capabilities. What overlaps? What differs?\nTake a position: Do you agree more with Nussbaum (we need a universal list) or Sen (each society should deliberate)? Why?\nGive a concrete example where your position would lead to different development policy\n\n\n\n\n\nIf you have questions or problems, please post them in the Moodle forum.",
+    "text": "✍️ Coursework\n\n\n\n\n\n\nTipOptional Exercises\n\n\n\n\n\nHere are some additinal exercises I suggest for a recap of the session and exam preparation. If questions emerge, feel free to post on the Moodle forum.\n\nExercise 1: HDI Discrepancy Analysis (350-400 words)\nCompare HDI rankings with GDP per capita rankings for 10 countries of your choice using the UNDP database.\n\nIdentify the 3 biggest positive discrepancies (countries ranking higher on HDI than GDP)\nIdentify the 3 biggest negative discrepancies (countries ranking lower on HDI than GDP)\nExplain these differences using capabilities theory concepts (functionings, conversion factors, instrumental freedoms)\n\n\n\nExercise 2: Capability Assessment (400 words)\nChoose a specific development challenge you’re familiar with (e.g., urban slums, rural education access, youth unemployment, refugee integration). Analyze it through the capabilities lens:\n\nWhich functionings are people unable to achieve?\nWhat conversion factors (personal, social, environmental) are at play?\nWhich of Sen’s five instrumental freedoms are lacking?\nWhat would a capability-enhancing policy look like?\n\n\n\nExercise 3: The Sen-Nussbaum Debate (300-350 words)\nReflect on the interactive exercise from class:\n\nInteractive Exercise Follow-Up\n\n\n\n\n\nIf you have questions or problems, please post them in the Moodle forum.",
     "crumbs": [
       "🗓️ Material",
       "Session 03"
@@ -512,5 +519,40 @@
       "🗓️ Material",
       "Session 03"
     ]
+  },
+  {
+    "objectID": "content/material/session_03_interactive-exercise.html",
+    "href": "content/material/session_03_interactive-exercise.html",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "",
+    "text": "Imagine you are advising the United Nations on how to define and measure human development globally.\nYour challenge: Create a list of 5-7 capabilities or freedoms that you believe are essential for a dignified human life."
+  },
+  {
+    "objectID": "content/material/session_03_interactive-exercise.html#instructions",
+    "href": "content/material/session_03_interactive-exercise.html#instructions",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "Instructions",
+    "text": "Instructions\nThink carefully about what makes a life truly human and dignified. What should every person be able to do or be?\nAs you create your list, consider:\n\nWhat does every person need to be able to do or be?\nWhich capabilities are most fundamental to you?\nAre some capabilities more important than others?\n\nFor each capability you list, also indicate: Do you think this should be guaranteed everywhere as a universal right, or should different societies/cultures decide differently about this?\n\nYour Capabilities List\nList 5-7 capabilities you consider essential:\n\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific"
+  },
+  {
+    "objectID": "content/material/session_03_interactive-exercise.html#instructions-1",
+    "href": "content/material/session_03_interactive-exercise.html#instructions-1",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "Instructions",
+    "text": "Instructions\nForm groups of 3-4 students and share your individual lists."
+  },
+  {
+    "objectID": "content/material/session_03_interactive-exercise.html#discussion-questions",
+    "href": "content/material/session_03_interactive-exercise.html#discussion-questions",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\nDiscuss the following in your group:\n\nWhere do you agree? Which capabilities appear on most or all lists?\nWhere do you disagree? Which capabilities are controversial in your group?\nThe big question: Should there be a universal, mandatory list that applies to all countries? Or should each society/country decide for itself which capabilities matter most?"
+  },
+  {
+    "objectID": "content/material/session_03_interactive-exercise.html#group-notes-optional",
+    "href": "content/material/session_03_interactive-exercise.html#group-notes-optional",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "Group Notes (optional)",
+    "text": "Group Notes (optional)\nCapabilities that appeared on multiple lists:\n\n  \n  \n  \n\nCapabilities that were controversial or unique:\n\n  \n  \n  \n\nOur group’s position on universalism:\n☐ There should be a universal list for all countries\n☐ Each country/society should decide for itself\n☐ We couldn’t agree / We’re split"
   }
 ]

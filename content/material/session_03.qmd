@@ -24,7 +24,7 @@ Either click on the slide area below or click [here](DevEcon25_L03_HumanDevelopm
 
 Download the worksheet for our in-class exercise on building your own capabilities list:
 
-- [Building Your Capabilities List - Interactive Exercise](/content/material/session03_exercise.html)
+- [Building Your Capabilities List - Interactive Exercise](/content/material/session_03_interactive-exercise.html)
 
 This exercise will help you engage with the central debate in capabilities theory before we introduce the formal frameworks. You'll create your own list of essential capabilities and discuss whether development standards should be universal or context-specific.
 
@@ -85,9 +85,7 @@ Choose a specific development challenge you're familiar with (e.g., urban slums,
 
 Reflect on the interactive exercise from class:
 
-- Compare your list to Nussbaum's 10 central capabilities. What overlaps? What differs?
-- Take a position: Do you agree more with Nussbaum (we need a universal list) or Sen (each society should deliberate)? Why?
-- Give a concrete example where your position would lead to different development policy
+- [Interactive Exercise Follow-Up](/content/material/session_03_interactive-exercise-followup.html)
 
 :::
 
