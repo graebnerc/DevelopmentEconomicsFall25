@@ -1,12 +1,14 @@
 ---
-title: "🗓️ Session 2:Measuring Development"
+title: "🗓️ Session 2: Measuring Development"
 date: "2025-09-26"
 date-modified: last-modified
 ---
 
-Abstract
+## Abstract
 
-## 👨‍🏫 Lecture Slides 
+While the first session focused on the theory of development, this session focuses on its practice—or, more precisely, its measurement. We will discuss how the theoretical construct of "development" can be operationalized and measured. This includes a debate about the theory-ladenness of observations, i.e., the fact that every observation and every measurement is dependent on certain theories and theoretical commitments. Therefore, the topics of this session and the first session are inextricably linked: discussing the definition of development and its measurement must always go hand in hand.
+
+## 🖥️ Lecture Slides 
 
 There are no slides for this lecture.
 

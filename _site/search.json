@@ -175,47 +175,122 @@
     "text": "Footnotes\n\n\nSometimes you hear GDI (Gross Domestic Income), which measures the same economic activity from the income side and should theoretically be equivalent to GDP.↩︎\n Note that you need to remove the sub-heading rows such as ‘Very high human development’ from the Excel file, replace the variable descriptions in line 6 with the variable names from line 5, and remove row 7 with the years to read it into R without problems.↩︎\nIf you are interested in this topic, you might want to check out books like Zucman and Piketty (2016) or Saez and Zucman (2019).↩︎\nMore information about capabilities and their accumulation can be found in Aistleitner et al. (2021). An overview over the measure of economic complexit is given on the Atlas website or, on a more academic level, in Hidalgo (2021).↩︎\nMore information about the product space can be found in the original article, which is still worth reading (Hidalgo et al. 2007).↩︎\nAs in many cases, data is available for women and men only; data about other gender is usually hard to obtain.↩︎"
   },
   {
-    "objectID": "content/material/session_01.html",
-    "href": "content/material/session_01.html",
-    "title": "🗓️ Session 1:Introduction and the meaning of ‘development’",
+    "objectID": "content/material/session_02.html",
+    "href": "content/material/session_02.html",
+    "title": "🗓️ Session 2: Measuring Development",
     "section": "",
-    "text": "Abstract",
+    "text": "While the first session focused on the theory of development, this session focuses on its practice—or, more precisely, its measurement. We will discuss how the theoretical construct of “development” can be operationalized and measured. This includes a debate about the theory-ladenness of observations, i.e., the fact that every observation and every measurement is dependent on certain theories and theoretical commitments. Therefore, the topics of this session and the first session are inextricably linked: discussing the definition of development and its measurement must always go hand in hand.",
     "crumbs": [
       "🗓️ Material",
-      "Session 01"
+      "Session 02"
     ]
   },
   {
-    "objectID": "content/material/session_01.html#lecture-slides",
-    "href": "content/material/session_01.html#lecture-slides",
-    "title": "🗓️ Session 1:Introduction and the meaning of ‘development’",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nEither click on the slide area below or click here to download the slides.",
+    "objectID": "content/material/session_02.html#abstract",
+    "href": "content/material/session_02.html#abstract",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "",
+    "text": "While the first session focused on the theory of development, this session focuses on its practice—or, more precisely, its measurement. We will discuss how the theoretical construct of “development” can be operationalized and measured. This includes a debate about the theory-ladenness of observations, i.e., the fact that every observation and every measurement is dependent on certain theories and theoretical commitments. Therefore, the topics of this session and the first session are inextricably linked: discussing the definition of development and its measurement must always go hand in hand.",
     "crumbs": [
       "🗓️ Material",
-      "Session 01"
+      "Session 02"
     ]
   },
   {
-    "objectID": "content/material/session_01.html#follow-up-reading",
-    "href": "content/material/session_01.html#follow-up-reading",
-    "title": "🗓️ Session 1:Introduction and the meaning of ‘development’",
-    "section": "📚 Follow-up Reading",
-    "text": "📚 Follow-up Reading\n\nSnapshot of the Human Development Report (2024)\nChang (2011)\nChapter 1 in Escobar (1995)\n\n\n🏆 Further readings\n\nChapter 1 in Todaro and Smith (2020)\nChapter 1 in De Janvry and Sadoulet (2021)",
+    "objectID": "content/material/session_02.html#lecture-slides",
+    "href": "content/material/session_02.html#lecture-slides",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "🖥️ Lecture Slides",
+    "text": "🖥️ Lecture Slides\nThere are no slides for this lecture.",
     "crumbs": [
       "🗓️ Material",
-      "Session 01"
+      "Session 02"
     ]
   },
   {
-    "objectID": "content/material/session_01.html#coursework",
-    "href": "content/material/session_01.html#coursework",
-    "title": "🗓️ Session 1:Introduction and the meaning of ‘development’",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n\nAdd your thoughts on the following questions to the Notepad on Moodle:\n\nWhat do you remember as the key message of the four theories/approaches introduced?\nWhat kind of socio-ecological challenges come to your attention or are obscured if you take one of the perspectives?\nWhat are aspects that you particularly like/disagree with?\n\nIf you have questions or problems, please post them in the Moodle forum",
+    "objectID": "content/material/session_02.html#mandatory-reading",
+    "href": "content/material/session_02.html#mandatory-reading",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "📚 Mandatory Reading",
+    "text": "📚 Mandatory Reading\n\nTutorial on Important measures of development\n\n\n🏆 Further readings\n\nChapter 2 in Todaro and Smith (2020)",
     "crumbs": [
       "🗓️ Material",
-      "Session 01"
+      "Session 02"
+    ]
+  },
+  {
+    "objectID": "content/material/session_02.html#coursework-optional",
+    "href": "content/material/session_02.html#coursework-optional",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "✍️ Coursework (optional)",
+    "text": "✍️ Coursework (optional)\n\nChoose three countries and compare their level of development using 3 different measures discussed in the tutorial\nIf you have questions or problems, please post them in the Moodle forum",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 02"
+    ]
+  },
+  {
+    "objectID": "content/material/index.html",
+    "href": "content/material/index.html",
+    "title": "Material overview",
+    "section": "",
+    "text": "Developing Economics Blog: a critical blog on development topics\nHierarchies of Development Podcast: critical podcast with very interesting, longer interviews about specific development topics\nOur World in Data: huge collection of data, together with a blog that is usually in the progressive-mainstream direction",
+    "crumbs": [
+      "🗓️ Material",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/material/index.html#general-references",
+    "href": "content/material/index.html#general-references",
+    "title": "Material overview",
+    "section": "",
+    "text": "Developing Economics Blog: a critical blog on development topics\nHierarchies of Development Podcast: critical podcast with very interesting, longer interviews about specific development topics\nOur World in Data: huge collection of data, together with a blog that is usually in the progressive-mainstream direction",
+    "crumbs": [
+      "🗓️ Material",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/material/index.html#session-specific-material",
+    "href": "content/material/index.html#session-specific-material",
+    "title": "Material overview",
+    "section": "🔖 Session-specific material",
+    "text": "🔖 Session-specific material\n\n\n\nSession\nTopic\n\n\n\n\n1\nFoundations and Contested Definition\n\n\n2\nMeasuring Development",
+    "crumbs": [
+      "🗓️ Material",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/tutorials.html",
+    "href": "content/tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Here I provide short tutorials or descriptions of relevant topics.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\n1: Important measures of development\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "🗓️ Material",
+      "💻 Tutorials"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Development Economics",
+    "section": "",
+    "text": "📑 The course in brief\nFocus:\n\nDiscuss the concept of ‘development’ from an economic perspective\nLearn about different notions of development and their policy implications\nUnderstand how ‘development’ can be conceptualized, measured, and explained\n\nHow:\n\nThe course is lecture-based, with interactive elements\n\nPrerequisites:\n\nSuccessful completion of the Economics I and II modules is strongly recommended.\nYou also benefit from having completed the course “Applied Data Science”.\n\n\n\n🎯 Learning Objectives\nExpertise:\n\nDefine and critically evaluate the most important concepts of (sustainable) economic development and commonly used development indicators\nCritically question and assess different approaches to defining and measuring development\nEvaluate policy measures in terms of their expected impact on economic development and identify their underlying theoretical foundations\n\nMethodological Competence:\n\nIndependently collect development data from publicly available sources and use it to analyze determinants and implications of economic development\nIdentify and evaluate the theories underlying development programs and policies\nApply both empirical and theoretical methods from development economics to analyze development-related problems and critically assess them\n\nSocial and Personal Skills:\n\nCritically question common notions of ‘development’ and articulate and justify your own ideas about appropriate definitions and measurements of economic development\nDescribe current debates on development policy and take well-founded positions on concrete development policy measures\nIdentify the data necessary to answer development theory questions and, when needed, acquire and analyze this data yourself while explaining your findings\n\n\n The main course on moodle",
+    "crumbs": [
+      "🏠 Home"
+    ]
+  },
+  {
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Development Economics",
+    "section": "",
+    "text": "📍 Lecture\n\nFridays 09:15-10:45 in MAD (room 024)\n\nPlease make sure to check out the most recent version of the seminar timetable. The most recent version can be found here.\n\n\n📂 Material\nYou find an overview about all lecture materials, such as slides and reading lists here.\nEUF students can register for the Moodle course 16258 using the password DevEcon25.\n\n\n💌 Contact and discussion\nFor asking questions and starting discussions, please use the forum in Moodle.",
+    "crumbs": [
+      "🏢 Getting Started"
     ]
   },
   {
@@ -267,7 +342,7 @@
     "href": "content/material/SeminarDescription.html#schedule-and-logistics",
     "title": "Development Economics",
     "section": "4 Schedule and Logistics",
-    "text": "4 Schedule and Logistics\n\n\n\n\n\n\nImportant\n\n\n\nNote: This schedule is subject to change as the course progresses. Announcements will be made via Moodle. The latest version of the syllabus will be made available here.\n\n\n\n\n\n\n\n\n\n\n\n#\nWeek\nDate\nTopic\n\n\n\n\n1\n38\n19.09.\nIntroduction and the meaning of ‘development’\n\n\n2\n39\n26.09. (digital)\nMeasuring development\n\n\n\n40\n03.10.\nNo lecture (Tag der deutschen Einheit)\n\n\n3\n41\n10.10.\nHuman Development and the Capabilities Approach\n\n\n4\n42\n17.10. (digital)\nClassical and Neoclassical Growth Models\n\n\n\n43\n24.10.\nNo lecture (reading week)\n\n\n\n44\n31.10.\nNo lecture (Reformationstag)\n\n\n5\n45\n07.11.\nInstitutional economics and Development\n\n\n6\n46\n14.11.\nMarxist and Dependency Theories of Development\n\n\n7\n47\n21.11. (digital)\nTechnology, Innovation, and Trade-Led Development\n\n\n8\n48.\n28.11.\nSustainable Development, Environmental Limits, and Degrowth\n\n\n9\n49\n05.12.\nCurrent methodological trends in development economics\n\n\n10\n50\n12.12.\nSummary and open questions\n\n\n\n\n\n\n\n\n\nExam Dates\n\n\n\n\nFirst Exam: December 16, 2025, 10:00 – 12:00\nSecond Exam: February 26, 2026, 10:00 – 12:00",
+    "text": "4 Schedule and Logistics\n\n\n\n\n\n\nImportant\n\n\n\nNote: This schedule is subject to change as the course progresses. Announcements will be made via Moodle. The latest version of the syllabus will be made available here.\n\n\n\n\n\n\n\n\n\n\n\n#\nWeek\nDate\nTopic\n\n\n\n\n1\n38\n19.09.\nIntroduction and the meaning of ‘development’\n\n\n2\n39\n26.09. (digital)\nMeasuring development\n\n\n\n40\n03.10.\nNo lecture (Tag der deutschen Einheit)\n\n\n3\n41\n10.10.\nHuman Development and the Capabilities Approach\n\n\n4\n42\n17.10. (digital)\nClassical and Neoclassical Growth Models\n\n\n\n43\n24.10.\nNo lecture (reading week)\n\n\n\n44\n31.10.\nNo lecture (Reformationstag)\n\n\n5\n45\n07.11.\nInstitutional economics and Development\n\n\n6\n46\n14.11.\nMarxist and Dependency Theories of Development\n\n\n7\n47\n21.11. (digital)\nTechnology, Innovation, and Trade-Led Development\n\n\n8\n48.\n28.11.\nSustainable Development, Environmental Limits, and Degrowth\n\n\n9\n49\n05.12.\nCurrent methodological trends in development economics\n\n\n10\n50\n12.12.\nSummary and open questions\n\n\n\n\n\n\n\n\n\nWarningExam Dates\n\n\n\n\nFirst Exam: December 16, 2025, 10:00 – 12:00\nSecond Exam: February 26, 2026, 10:00 – 12:00",
     "crumbs": [
       "🗓️ Material",
       "Seminar Description"
@@ -278,118 +353,164 @@
     "href": "content/material/SeminarDescription.html#evaluation-and-assessment",
     "title": "Development Economics",
     "section": "5 Evaluation and Assessment",
-    "text": "5 Evaluation and Assessment\n\n5.1 Final Exam\nThe course evaluation is based on a final exam at the end of the semester.\n\n\n5.2 Admission Requirements\n\nTo be admitted to the final exam, students must pass the essay take home assigned during the semester.\nThe essay take home is a 1000 words essay that must be completed at home independenly, and will be graded pass or fail\n\n\n\n\n\n\n\nStudy Recommendations\n\n\n\nI strongly recommend that you spread your study time fairly evenly throughout the semester. It will save you time and effort if you study and practice constantly, not just right before the exam.\n\n\n\n\n\n\n\n\n\nContact Information\n\n\n\nFor questions regarding the course content or logistics, please use the Moodle discussion forums. For more personal questions consider visiting my office hours.",
+    "text": "5 Evaluation and Assessment\n\n5.1 Final Exam\nThe course evaluation is based on a final exam at the end of the semester.\n\n\n5.2 Admission Requirements\n\nTo be admitted to the final exam, students must pass the essay take home assigned during the semester.\nThe essay take home is a 1000 words essay that must be completed at home independenly, and will be graded pass or fail\n\n\n\n\n\n\n\nTipStudy Recommendations\n\n\n\nI strongly recommend that you spread your study time fairly evenly throughout the semester. It will save you time and effort if you study and practice constantly, not just right before the exam.\n\n\n\n\n\n\n\n\n\nTipContact Information\n\n\n\nFor questions regarding the course content or logistics, please use the Moodle discussion forums. For more personal questions consider visiting my office hours.",
     "crumbs": [
       "🗓️ Material",
       "Seminar Description"
     ]
   },
   {
-    "objectID": "content/index.html",
-    "href": "content/index.html",
-    "title": "Development Economics",
+    "objectID": "content/material/session_01.html",
+    "href": "content/material/session_01.html",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
     "section": "",
-    "text": "📍 Lecture\n\nFridays 09:15-10:45 in MAD (room 024)\n\nPlease make sure to check out the most recent version of the seminar timetable. The most recent version can be found here.\n\n\n📂 Material\nYou find an overview about all lecture materials, such as slides and reading lists here.\nEUF students can register for the Moodle course 16258 using the password DevEcon25.\n\n\n💌 Contact and discussion\nFor asking questions and starting discussions, please use the forum in Moodle.",
-    "crumbs": [
-      "🏢 Getting Started"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Development Economics",
-    "section": "",
-    "text": "📑 The course in brief\nFocus:\n\nDiscuss the concept of ‘development’ from an economic perspective\nLearn about different notions of development and their policy implications\nUnderstand how ‘development’ can be conceptualized, measured, and explained\n\nHow:\n\nThe course is lecture-based, with interactive elements\n\nPrerequisites:\n\nSuccessful completion of the Economics I and II modules is strongly recommended.\nYou also benefit from having completed the course “Applied Data Science”.\n\n\n\n🎯 Learning Objectives\nExpertise:\n\nDefine and critically evaluate the most important concepts of (sustainable) economic development and commonly used development indicators\nCritically question and assess different approaches to defining and measuring development\nEvaluate policy measures in terms of their expected impact on economic development and identify their underlying theoretical foundations\n\nMethodological Competence:\n\nIndependently collect development data from publicly available sources and use it to analyze determinants and implications of economic development\nIdentify and evaluate the theories underlying development programs and policies\nApply both empirical and theoretical methods from development economics to analyze development-related problems and critically assess them\n\nSocial and Personal Skills:\n\nCritically question common notions of ‘development’ and articulate and justify your own ideas about appropriate definitions and measurements of economic development\nDescribe current debates on development policy and take well-founded positions on concrete development policy measures\nIdentify the data necessary to answer development theory questions and, when needed, acquire and analyze this data yourself while explaining your findings\n\n\n The main course on moodle",
-    "crumbs": [
-      "🏠 Home"
-    ]
-  },
-  {
-    "objectID": "content/tutorials.html",
-    "href": "content/tutorials.html",
-    "title": "Tutorials",
-    "section": "",
-    "text": "Here I provide short tutorials or descriptions of relevant topics.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\n1: Important measures of development\n\n\n\n\n\n\nNo matching items",
+    "text": "In this introductory lecture we discuss four “grand theories” that all give different answers to the question of “What is development?”. As we will see throughout this course, the fundamental ideas of these four approaches continue to shape - implicitly or explicitly - the discourses about the rights and wrongs of development policy.",
     "crumbs": [
       "🗓️ Material",
-      "💻 Tutorials"
+      "Session 01"
     ]
   },
   {
-    "objectID": "content/material/index.html",
-    "href": "content/material/index.html",
-    "title": "Material overview",
+    "objectID": "content/material/session_01.html#abstract",
+    "href": "content/material/session_01.html#abstract",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
     "section": "",
-    "text": "Developing Economics Blog: a critical blog on development topics\nHierarchies of Development Podcast: critical podcast with very interesting, longer interviews about specific development topics\nOur World in Data: huge collection of data, together with a blog that is usually in the progressive-mainstream direction",
+    "text": "In this introductory lecture we discuss four “grand theories” that all give different answers to the question of “What is development?”. As we will see throughout this course, the fundamental ideas of these four approaches continue to shape - implicitly or explicitly - the discourses about the rights and wrongs of development policy.",
     "crumbs": [
       "🗓️ Material",
-      "Overview"
+      "Session 01"
     ]
   },
   {
-    "objectID": "content/material/index.html#general-references",
-    "href": "content/material/index.html#general-references",
-    "title": "Material overview",
+    "objectID": "content/material/session_01.html#lecture-slides",
+    "href": "content/material/session_01.html#lecture-slides",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
+    "section": "🖥️ Lecture Slides",
+    "text": "🖥️ Lecture Slides\nEither click on the slide area below or click here to download the slides.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 01"
+    ]
+  },
+  {
+    "objectID": "content/material/session_01.html#follow-up-reading",
+    "href": "content/material/session_01.html#follow-up-reading",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
+    "section": "📚 Follow-up Reading",
+    "text": "📚 Follow-up Reading\n\nSnapshot of the Human Development Report (2024)\nChang (2011)\nChapter 1 in Escobar (1995)\n\n\n🏆 Further readings\n\nChapter 1 in Todaro and Smith (2020)\nChapter 1 in De Janvry and Sadoulet (2021)",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 01"
+    ]
+  },
+  {
+    "objectID": "content/material/session_01.html#coursework",
+    "href": "content/material/session_01.html#coursework",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n\nAdd your thoughts on the following questions to the Notepad on Moodle:\n\nWhat do you remember as the key message of the four theories/approaches introduced?\nWhat kind of socio-ecological challenges come to your attention or are obscured if you take one of the perspectives?\nWhat are aspects that you particularly like/disagree with?\n\nIf you have questions or problems, please post them in the Moodle forum",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 01"
+    ]
+  },
+  {
+    "objectID": "content/material/session_03.html",
+    "href": "content/material/session_03.html",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
     "section": "",
-    "text": "Developing Economics Blog: a critical blog on development topics\nHierarchies of Development Podcast: critical podcast with very interesting, longer interviews about specific development topics\nOur World in Data: huge collection of data, together with a blog that is usually in the progressive-mainstream direction",
+    "text": "This session explores the capabilities approach to development, which shifts the focus from income and economic growth to human freedoms and opportunities. We will examine Amartya Sen’s conceptual framework, which distinguishes between functionings, capabilities, and agency. Then, we will discuss how these ideas have been operationalized through the UNDP’s Human Development Index and related measures.\nThrough an interactive exercise, you will engage with the debate between universal approaches, as proposed by Nussbaum, and context-specific deliberation, as proposed by Sen. Finally, we will examine how gender inequalities are measured and addressed in development practice.",
     "crumbs": [
       "🗓️ Material",
-      "Overview"
+      "Session 03"
     ]
   },
   {
-    "objectID": "content/material/index.html#session-specific-material",
-    "href": "content/material/index.html#session-specific-material",
-    "title": "Material overview",
-    "section": "🔖 Session-specific material",
-    "text": "🔖 Session-specific material\n\n\n\nSession\nTopic\n\n\n\n\n1\nFoundations and Contested Definition\n\n\n2\nMeasuring Development",
-    "crumbs": [
-      "🗓️ Material",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "content/material/session_02.html",
-    "href": "content/material/session_02.html",
-    "title": "🗓️ Session 2:Measuring Development",
+    "objectID": "content/material/session_03.html#abstract",
+    "href": "content/material/session_03.html#abstract",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
     "section": "",
-    "text": "Abstract",
+    "text": "This session explores the capabilities approach to development, which shifts the focus from income and economic growth to human freedoms and opportunities. We will examine Amartya Sen’s conceptual framework, which distinguishes between functionings, capabilities, and agency. Then, we will discuss how these ideas have been operationalized through the UNDP’s Human Development Index and related measures.\nThrough an interactive exercise, you will engage with the debate between universal approaches, as proposed by Nussbaum, and context-specific deliberation, as proposed by Sen. Finally, we will examine how gender inequalities are measured and addressed in development practice.",
     "crumbs": [
       "🗓️ Material",
-      "Session 02"
+      "Session 03"
     ]
   },
   {
-    "objectID": "content/material/session_02.html#lecture-slides",
-    "href": "content/material/session_02.html#lecture-slides",
-    "title": "🗓️ Session 2:Measuring Development",
-    "section": "👨‍🏫 Lecture Slides",
-    "text": "👨‍🏫 Lecture Slides\nThere are no slides for this lecture.",
+    "objectID": "content/material/session_03.html#lecture-slides",
+    "href": "content/material/session_03.html#lecture-slides",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
+    "section": "🖥️ Lecture Slides",
+    "text": "🖥️ Lecture Slides\nEither click on the slide area below or click here to download the slides.",
     "crumbs": [
       "🗓️ Material",
-      "Session 02"
+      "Session 03"
     ]
   },
   {
-    "objectID": "content/material/session_02.html#mandatory-reading",
-    "href": "content/material/session_02.html#mandatory-reading",
-    "title": "🗓️ Session 2:Measuring Development",
+    "objectID": "content/material/session_03.html#interactive-exercise",
+    "href": "content/material/session_03.html#interactive-exercise",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
+    "section": "🎯 Interactive Exercise",
+    "text": "🎯 Interactive Exercise\nDownload the worksheet for our in-class exercise on building your own capabilities list:\n\nBuilding Your Capabilities List - Interactive Exercise\n\nThis exercise will help you engage with the central debate in capabilities theory before we introduce the formal frameworks. You’ll create your own list of essential capabilities and discuss whether development standards should be universal or context-specific.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 03"
+    ]
+  },
+  {
+    "objectID": "content/material/session_03.html#mandatory-reading",
+    "href": "content/material/session_03.html#mandatory-reading",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
     "section": "📚 Mandatory Reading",
-    "text": "📚 Mandatory Reading\n\nTutorial on Important measures of development\n\n\n🏆 Further readings\n\nChapter 2 in Todaro and Smith (2020)",
+    "text": "📚 Mandatory Reading\n\nSen (1990) (Download PDF)",
     "crumbs": [
       "🗓️ Material",
-      "Session 02"
+      "Session 03"
     ]
   },
   {
-    "objectID": "content/material/session_02.html#coursework-optional",
-    "href": "content/material/session_02.html#coursework-optional",
-    "title": "🗓️ Session 2:Measuring Development",
-    "section": "✍️ Coursework (optional)",
-    "text": "✍️ Coursework (optional)\n\nChoose three countries and compare their level of development using 3 different measures discussed in the tutorial\nIf you have questions or problems, please post them in the Moodle forum",
+    "objectID": "content/material/session_03.html#further-readings",
+    "href": "content/material/session_03.html#further-readings",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
+    "section": "🏆 Further Readings",
+    "text": "🏆 Further Readings\n\nTechnical notes for the 2025 Human Development Report\n\nOfficial, but still straightforward description of how the HDI gets calculated\n\nRavallion (2012)\n\nA critical discussion of the HDI methodology, which is still relevant as the underlying methodology has not changed since the publication\n\nSen (2000) , Introduction + Chapter 3\n\nThe foundational text for the capabilities approach\n\nNussbaum (2013), Chapters 1-2.\n\nClear exposition of capabilities approach, different interpretation than Sen\nIntroduces the 10 central capabilities proposed by Martha Nussbaum\n\nRobeyns (2005)\n\nA good critical overview of the approach\n\nAlkire and Deneulin (2009)\n\nComprehensive but accessible synthesis\n\nStiglitz et al. (2010)\n\nPolicy-oriented critique of GDP with capability perspective",
     "crumbs": [
       "🗓️ Material",
-      "Session 02"
+      "Session 03"
+    ]
+  },
+  {
+    "objectID": "content/material/session_03.html#coursework",
+    "href": "content/material/session_03.html#coursework",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n\n\n\n\n\n\nTipOptional Exercises\n\n\n\n\n\nHere are some additinal exercises I suggest for a recap of the session and exam preparation. If questions emerge, feel free to post on the Moodle forum.\n\nExercise 1: HDI Discrepancy Analysis (350-400 words)\nCompare HDI rankings with GDP per capita rankings for 10 countries of your choice using the UNDP database.\n\nIdentify the 3 biggest positive discrepancies (countries ranking higher on HDI than GDP)\nIdentify the 3 biggest negative discrepancies (countries ranking lower on HDI than GDP)\nExplain these differences using capabilities theory concepts (functionings, conversion factors, instrumental freedoms)\n\n\n\nExercise 2: Capability Assessment (400 words)\nChoose a specific development challenge you’re familiar with (e.g., urban slums, rural education access, youth unemployment, refugee integration). Analyze it through the capabilities lens:\n\nWhich functionings are people unable to achieve?\nWhat conversion factors (personal, social, environmental) are at play?\nWhich of Sen’s five instrumental freedoms are lacking?\nWhat would a capability-enhancing policy look like?\n\n\n\nExercise 3: The Sen-Nussbaum Debate (300-350 words)\nReflect on the interactive exercise from class:\n\nCompare your list to Nussbaum’s 10 central capabilities. What overlaps? What differs?\nTake a position: Do you agree more with Nussbaum (we need a universal list) or Sen (each society should deliberate)? Why?\nGive a concrete example where your position would lead to different development policy\n\n\n\n\n\nIf you have questions or problems, please post them in the Moodle forum.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 03"
+    ]
+  },
+  {
+    "objectID": "content/material/session_03.html#additional-resources",
+    "href": "content/material/session_03.html#additional-resources",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
+    "section": "🔗 Additional Resources",
+    "text": "🔗 Additional Resources\n\nUNDP Human Development Data Center: http://hdr.undp.org/en/data\n\nInteractive dashboards for HDI, IHDI, GII, MPI\n\nOxford Poverty & Human Development Initiative (OPHI): https://ophi.org.uk/\n\nResearch and data on multidimensional poverty",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 03"
+    ]
+  },
+  {
+    "objectID": "content/material/session_03.html#references",
+    "href": "content/material/session_03.html#references",
+    "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
+    "section": "References",
+    "text": "References\n\n\nAlkire, S. and Deneulin, S. (2009) “The Human Development and Capability Approach,” in S. Deneulin (ed.). An Introduction to the Human Development and Capability Approach. Abingdon, UK ; New York, NY: Routledge, pp. 22–48, doi:10.4324/9781849770026.\n\n\nNussbaum, M. C. (2013) Creating capabilities: The human development approach, Cambridge, Massachusetts London, England: Harvard University Press.\n\n\nRavallion, M. (2012) “Troubling tradeoffs in the Human Development Index,” Journal of Development Economics 99(2): 201–209, doi:10.1016/j.jdeveco.2012.01.003.\n\n\nRobeyns, I. (2005) “The Capability Approach: A theoretical survey,” Journal of Human Development 6(1): 93–117, doi:10.1080/146498805200034266.\n\n\nSen, A. (1990) “Development as Capability Expansion,” in K. Griffin and J. Knight (eds.). Human development and the international development strategy for the 1990s. Basingstoke, Hampshire: Macmillan [u.a.], pp. 41–58.\n\n\nSen, A. (2000) Development as Freedom, New York: Alfred Knopf.\n\n\nStiglitz, J. E., Sen, A. and Fitoussi, J.-P. (eds.) (2010) Mismeasuring our lives: Why GDP doesn’t add up, New York: New Press.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 03"
     ]
   }
 ]
