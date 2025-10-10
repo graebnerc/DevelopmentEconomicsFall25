@@ -12,7 +12,7 @@ As we will see throughout this course, the fundamental ideas of these four appro
 ## 🖥️ Lecture Slides 
 
 Either click on the slide area below or click 
-[here](DevEcon25_L01_MeaningDevelopment.pdf) to download the slides.
+[here](slides/DevEcon25_L01_MeaningDevelopment.pdf) to download the slides.
 
 ```{=html}
 <div class="embed-container">
