@@ -175,251 +175,74 @@
     "text": "Footnotes\n\n\nSometimes you hear GDI (Gross Domestic Income), which measures the same economic activity from the income side and should theoretically be equivalent to GDP.↩︎\n Note that you need to remove the sub-heading rows such as ‘Very high human development’ from the Excel file, replace the variable descriptions in line 6 with the variable names from line 5, and remove row 7 with the years to read it into R without problems.↩︎\nIf you are interested in this topic, you might want to check out books like Zucman and Piketty (2016) or Saez and Zucman (2019).↩︎\nMore information about capabilities and their accumulation can be found in Aistleitner et al. (2021). An overview over the measure of economic complexit is given on the Atlas website or, on a more academic level, in Hidalgo (2021).↩︎\nMore information about the product space can be found in the original article, which is still worth reading (Hidalgo et al. 2007).↩︎\nAs in many cases, data is available for women and men only; data about other gender is usually hard to obtain.↩︎"
   },
   {
-    "objectID": "content/material/session_03_interactive-exercise-followup.html",
-    "href": "content/material/session_03_interactive-exercise-followup.html",
-    "title": "Reflection Questions",
+    "objectID": "content/material/session_04-Exercise.html",
+    "href": "content/material/session_04-Exercise.html",
+    "title": "Session 4: Growth Models",
     "section": "",
-    "text": "Post-Lecture Reflection\nNow that you’ve learned about Amartya Sen’s and Martha Nussbaum’s approaches to capabilities, reflect on the exercise we did at the beginning of class.\n\n\n\nQuestion 1: Comparing Your List to Nussbaum’s\nMartha Nussbaum’s 10 Central Capabilities:\n\nLife (being able to live a normal lifespan)\nBodily health (including nourishment, shelter)\nBodily integrity (freedom of movement, security, reproductive choice)\nSenses, imagination, and thought (education, expression)\nEmotions (being able to love, grieve, feel)\nPractical reason (being able to form conception of good life)\nAffiliation (being able to live with others, social respect)\nOther species (being able to live with concern for nature)\nPlay (being able to laugh, enjoy recreation)\nControl over one’s environment (political and material)\n\nYour reflection:\nWhat overlaps between your list and Nussbaum’s?\n  \n  \n  \nWhat did you include that Nussbaum didn’t?\n  \n  \n  \nWhat did Nussbaum include that you didn’t?\n  \n  \n  \n\n\n\nQuestion 2: The Sen-Nussbaum Debate\nWhich philosopher’s approach resonates more with you?\n☐ Martha Nussbaum’s approach: We need a clear, universal list to hold governments accountable and protect human dignity\n☐ Amartya Sen’s approach: Each society should democratically deliberate and decide which capabilities matter most in their context\n\n\n\nQuestion 3: Explain Your Position\nWhy does this approach resonate with you?\n  \n  \n  \n  \n  \nCan you think of a concrete example where your position would lead to different development policy than the alternative position?\n  \n  \n  \n  \n  \n\n\n\nQuestion 4: Critical Reflection\nWhat are potential problems or limitations with the approach you chose?\n  \n  \n  \n  \n\n\n\nQuestion 5: The Exercise Experience\nDid your thinking about universal versus context-specific approaches change during the class discussion? If so, how?\n  \n  \n  \n  \n\n\n\nAdditional resources and readings\nSee the course website\n\nOptional: Submit your reflections to the Moodle forum or keep them for your own study notes."
+    "text": "One of the most striking predictions of the Solow-Swan model is absolute convergence: poor countries should grow faster than rich countries due to diminishing returns to capital, eventually leading all economies to the same income level.\nYour task is to test this prediction empirically using real-world data from the Penn World Tables."
   },
   {
-    "objectID": "content/material/session_02.html",
-    "href": "content/material/session_02.html",
-    "title": "🗓️ Session 2: Measuring Development",
+    "objectID": "content/material/session_04-Exercise.html#overview",
+    "href": "content/material/session_04-Exercise.html#overview",
+    "title": "Session 4: Growth Models",
     "section": "",
-    "text": "While the first session focused on the theory of development, this session focuses on its practice—or, more precisely, its measurement. We will discuss how the theoretical construct of “development” can be operationalized and measured. This includes a debate about the theory-ladenness of observations, i.e., the fact that every observation and every measurement is dependent on certain theories and theoretical commitments. Therefore, the topics of this session and the first session are inextricably linked: discussing the definition of development and its measurement must always go hand in hand.",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 02"
-    ]
+    "text": "One of the most striking predictions of the Solow-Swan model is absolute convergence: poor countries should grow faster than rich countries due to diminishing returns to capital, eventually leading all economies to the same income level.\nYour task is to test this prediction empirically using real-world data from the Penn World Tables."
   },
   {
-    "objectID": "content/material/session_02.html#abstract",
-    "href": "content/material/session_02.html#abstract",
-    "title": "🗓️ Session 2: Measuring Development",
+    "objectID": "content/material/session_04-Exercise.html#what-you-need",
+    "href": "content/material/session_04-Exercise.html#what-you-need",
+    "title": "Session 4: Growth Models",
+    "section": "What You Need",
+    "text": "What You Need\n\nRequired packages\n\nhaven (for reading Stata files)\ndplyr (data manipulation)\nggplot2 (visualization)\ntidyr (data reshaping)\nbroom (regression results)\n\n\n\nData Source\n\nPenn World Tables 11.0: Download pwt110.dta from https://www.rug.nl/ggdc/productivity/pwt/\nSave the file in your R working directory"
+  },
+  {
+    "objectID": "content/material/session_04-Exercise.html#the-convergence-test",
+    "href": "content/material/session_04-Exercise.html#the-convergence-test",
+    "title": "Session 4: Growth Models",
+    "section": "The Convergence Test",
+    "text": "The Convergence Test\nYou will estimate this regression equation:\n\\[\\frac{1}{T} \\ln\\left(\\frac{y_{i,t+T}}{y_{i,t}}\\right) = \\alpha + \\beta \\ln(y_{i,t}) + \\epsilon_i\\]\nInterpretation:\nThe crucial parameter to test is the convergence parameter \\(\\beta\\):\n\nIf \\(\\beta &lt; 0\\): Countries with lower initial income grow faster \\(\\rightarrow\\) Convergence\nIf \\(\\beta &gt; 0\\): Rich countries grow faster \\(\\rightarrow\\) Divergence\n\nThus, the prediction of the Solow-Swan model is that \\(\\beta\\) is significantly smaller than zero."
+  },
+  {
+    "objectID": "content/material/session_04-Exercise.html#analysis-requirements",
+    "href": "content/material/session_04-Exercise.html#analysis-requirements",
+    "title": "Session 4: Growth Models",
+    "section": "Analysis Requirements",
+    "text": "Analysis Requirements\nThere are different ways to test for convergence. In particular, you may vary the time horizon and the countries considered.\nWe suggest you test convergence for:\n\nTime Periods:\n\n1960-1990 (30 years)\n1990-2022 (32 years)\n\nCountry Samples:\n\nAll countries with complete data (the Solow-Swan case)\nOECD countries only (the case of conditional convergence)\n\n\nWhat you should produce for every case:\n\nRegression results (\\(\\beta\\) coefficient, \\(p\\)-value, \\(R^2\\))\nScatter plots with trend lines\nEconomic interpretation of findings\n\nThis exercise demonstrates how theoretical predictions from growth models perform when confronted with empirical evidence - a crucial skill in development economics research."
+  },
+  {
+    "objectID": "content/material/session_03_interactive-exercise.html",
+    "href": "content/material/session_03_interactive-exercise.html",
+    "title": "Interactive Exercise: Building Your Capabilities List",
     "section": "",
-    "text": "While the first session focused on the theory of development, this session focuses on its practice—or, more precisely, its measurement. We will discuss how the theoretical construct of “development” can be operationalized and measured. This includes a debate about the theory-ladenness of observations, i.e., the fact that every observation and every measurement is dependent on certain theories and theoretical commitments. Therefore, the topics of this session and the first session are inextricably linked: discussing the definition of development and its measurement must always go hand in hand.",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 02"
-    ]
+    "text": "Imagine you are advising the United Nations on how to define and measure human development globally.\nYour challenge: Create a list of 5-7 capabilities or freedoms that you believe are essential for a dignified human life."
   },
   {
-    "objectID": "content/material/session_02.html#lecture-slides",
-    "href": "content/material/session_02.html#lecture-slides",
-    "title": "🗓️ Session 2: Measuring Development",
-    "section": "🖥️ Lecture Slides",
-    "text": "🖥️ Lecture Slides\nThere are no slides for this lecture.",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 02"
-    ]
+    "objectID": "content/material/session_03_interactive-exercise.html#instructions",
+    "href": "content/material/session_03_interactive-exercise.html#instructions",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "Instructions",
+    "text": "Instructions\nThink carefully about what makes a life truly human and dignified. What should every person be able to do or be?\nAs you create your list, consider:\n\nWhat does every person need to be able to do or be?\nWhich capabilities are most fundamental to you?\nAre some capabilities more important than others?\n\nFor each capability you list, also indicate: Do you think this should be guaranteed everywhere as a universal right, or should different societies/cultures decide differently about this?\n\nYour Capabilities List\nList 5-7 capabilities you consider essential:\n\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific"
   },
   {
-    "objectID": "content/material/session_02.html#mandatory-reading",
-    "href": "content/material/session_02.html#mandatory-reading",
-    "title": "🗓️ Session 2: Measuring Development",
-    "section": "📚 Mandatory Reading",
-    "text": "📚 Mandatory Reading\n\nTutorial on Important measures of development\n\n\n🏆 Further readings\n\nChapter 2 in Todaro and Smith (2020)",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 02"
-    ]
+    "objectID": "content/material/session_03_interactive-exercise.html#instructions-1",
+    "href": "content/material/session_03_interactive-exercise.html#instructions-1",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "Instructions",
+    "text": "Instructions\nForm groups of 3-4 students and share your individual lists."
   },
   {
-    "objectID": "content/material/session_02.html#coursework-optional",
-    "href": "content/material/session_02.html#coursework-optional",
-    "title": "🗓️ Session 2: Measuring Development",
-    "section": "✍️ Coursework (optional)",
-    "text": "✍️ Coursework (optional)\n\nChoose three countries and compare their level of development using 3 different measures discussed in the tutorial\nIf you have questions or problems, please post them in the Moodle forum",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 02"
-    ]
+    "objectID": "content/material/session_03_interactive-exercise.html#discussion-questions",
+    "href": "content/material/session_03_interactive-exercise.html#discussion-questions",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\nDiscuss the following in your group:\n\nWhere do you agree? Which capabilities appear on most or all lists?\nWhere do you disagree? Which capabilities are controversial in your group?\nThe big question: Should there be a universal, mandatory list that applies to all countries? Or should each society/country decide for itself which capabilities matter most?"
   },
   {
-    "objectID": "content/material/index.html",
-    "href": "content/material/index.html",
-    "title": "Material overview",
-    "section": "",
-    "text": "Developing Economics Blog: a critical blog on development topics\nHierarchies of Development Podcast: critical podcast with very interesting, longer interviews about specific development topics\nOur World in Data: huge collection of data, together with a blog that is usually in the progressive-mainstream direction",
-    "crumbs": [
-      "🗓️ Material",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "content/material/index.html#general-references",
-    "href": "content/material/index.html#general-references",
-    "title": "Material overview",
-    "section": "",
-    "text": "Developing Economics Blog: a critical blog on development topics\nHierarchies of Development Podcast: critical podcast with very interesting, longer interviews about specific development topics\nOur World in Data: huge collection of data, together with a blog that is usually in the progressive-mainstream direction",
-    "crumbs": [
-      "🗓️ Material",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "content/material/index.html#session-specific-material",
-    "href": "content/material/index.html#session-specific-material",
-    "title": "Material overview",
-    "section": "🔖 Session-specific material",
-    "text": "🔖 Session-specific material\n\n\n\nSession\nTopic\n\n\n\n\n1\nFoundations and Contested Definition\n\n\n2\nMeasuring Development",
-    "crumbs": [
-      "🗓️ Material",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "content/tutorials.html",
-    "href": "content/tutorials.html",
-    "title": "Tutorials",
-    "section": "",
-    "text": "Here I provide short tutorials or descriptions of relevant topics.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\n1: Important measures of development\n\n\n\n\n\n\nNo matching items",
-    "crumbs": [
-      "🗓️ Material",
-      "💻 Tutorials"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Development Economics",
-    "section": "",
-    "text": "📑 The course in brief\nFocus:\n\nDiscuss the concept of ‘development’ from an economic perspective\nLearn about different notions of development and their policy implications\nUnderstand how ‘development’ can be conceptualized, measured, and explained\n\nHow:\n\nThe course is lecture-based, with interactive elements\n\nPrerequisites:\n\nSuccessful completion of the Economics I and II modules is strongly recommended.\nYou also benefit from having completed the course “Applied Data Science”.\n\n\n\n🎯 Learning Objectives\nExpertise:\n\nDefine and critically evaluate the most important concepts of (sustainable) economic development and commonly used development indicators\nCritically question and assess different approaches to defining and measuring development\nEvaluate policy measures in terms of their expected impact on economic development and identify their underlying theoretical foundations\n\nMethodological Competence:\n\nIndependently collect development data from publicly available sources and use it to analyze determinants and implications of economic development\nIdentify and evaluate the theories underlying development programs and policies\nApply both empirical and theoretical methods from development economics to analyze development-related problems and critically assess them\n\nSocial and Personal Skills:\n\nCritically question common notions of ‘development’ and articulate and justify your own ideas about appropriate definitions and measurements of economic development\nDescribe current debates on development policy and take well-founded positions on concrete development policy measures\nIdentify the data necessary to answer development theory questions and, when needed, acquire and analyze this data yourself while explaining your findings\n\n\n The main course on moodle",
-    "crumbs": [
-      "🏠 Home"
-    ]
-  },
-  {
-    "objectID": "content/index.html",
-    "href": "content/index.html",
-    "title": "Development Economics",
-    "section": "",
-    "text": "📍 Lecture\n\nFridays 09:15-10:45 in MAD (room 024)\n\nPlease make sure to check out the most recent version of the seminar timetable. The most recent version can be found here.\n\n\n📂 Material\nYou find an overview about all lecture materials, such as slides and reading lists here.\nEUF students can register for the Moodle course 16258 using the password DevEcon25.\n\n\n💌 Contact and discussion\nFor asking questions and starting discussions, please use the forum in Moodle.",
-    "crumbs": [
-      "🏢 Getting Started"
-    ]
-  },
-  {
-    "objectID": "content/material/SeminarDescription.html",
-    "href": "content/material/SeminarDescription.html",
-    "title": "Development Economics",
-    "section": "",
-    "text": "You will know the most influential theories about the determinants of socio-economic development. You will be able to identify and reflect on the ideas of ‘progress’ and ‘good life’ underlying these theories. Moreover, you will learn to reproduce and evaluate the common patterns of argumentation on the relationship between ‘development’, ‘economic growth’ and ‘planetary boundaries’.",
-    "crumbs": [
-      "🗓️ Material",
-      "Seminar Description"
-    ]
-  },
-  {
-    "objectID": "content/material/SeminarDescription.html#overall-goal-of-the-course",
-    "href": "content/material/SeminarDescription.html#overall-goal-of-the-course",
-    "title": "Development Economics",
-    "section": "",
-    "text": "You will know the most influential theories about the determinants of socio-economic development. You will be able to identify and reflect on the ideas of ‘progress’ and ‘good life’ underlying these theories. Moreover, you will learn to reproduce and evaluate the common patterns of argumentation on the relationship between ‘development’, ‘economic growth’ and ‘planetary boundaries’.",
-    "crumbs": [
-      "🗓️ Material",
-      "Seminar Description"
-    ]
-  },
-  {
-    "objectID": "content/material/SeminarDescription.html#learning-goals",
-    "href": "content/material/SeminarDescription.html#learning-goals",
-    "title": "Development Economics",
-    "section": "2 Learning Goals",
-    "text": "2 Learning Goals\nUpon completion of this seminar, you will be able to:\nExpertise:\n\nDefine and critically evaluate the most important concepts of (sustainable) economic development and commonly used development indicators\nCritically question and assess different approaches to defining and measuring development\nEvaluate policy measures in terms of their expected impact on economic development and identify their underlying theoretical foundations\n\nMethodological Competence:\n\nIndependently collect development data from publicly available sources and use it to analyze determinants and implications of economic development\nIdentify and evaluate the theories underlying development programs and policies\nApply both empirical and theoretical methods from development economics to analyze development-related problems and critically assess them\n\nSocial and Personal Skills:\n\nCritically question common notions of ‘development’ and articulate and justify your own ideas about appropriate definitions and measurements of economic development\nDescribe current debates on development policy and take well-founded positions on concrete development policy measures\nIdentify the data necessary to answer development theory questions and, when needed, acquire and analyze this data yourself while explaining your findings",
-    "crumbs": [
-      "🗓️ Material",
-      "Seminar Description"
-    ]
-  },
-  {
-    "objectID": "content/material/SeminarDescription.html#course-information",
-    "href": "content/material/SeminarDescription.html#course-information",
-    "title": "Development Economics",
-    "section": "3 Course Information",
-    "text": "3 Course Information\n\n\n\n3.1 Prerequisites\nThe lecture is an elective in the third or fifth semester. While there are no formal prerequisites, successful completion of the Economics I and II modules is strongly recommended. You also benefit from having completed the course “Applied Data Science”.\n\n\n3.2 Course Details\n\nCredits: 5 CP (150 total hours)\nLecture Time: 15 hours (10 × 1.5 hours)\nSelf-Study: 135 hours\nLocation: MAD, room 024\n\n\n\n\n3.3 Course Resources\n\nMoodle Room: 16258\nMoodle Password: DevEcon25\nCourse homepage: developmenteconomics25fall.netlify.app\n\n\n\n3.4 Recommended Study Schedule\n\nTime Horizon: September 12 - December 12\nDaily Study: about 1.5 hours (7 days/week)\nWeekday Study: about 2 hours (5 days/week)",
-    "crumbs": [
-      "🗓️ Material",
-      "Seminar Description"
-    ]
-  },
-  {
-    "objectID": "content/material/SeminarDescription.html#schedule-and-logistics",
-    "href": "content/material/SeminarDescription.html#schedule-and-logistics",
-    "title": "Development Economics",
-    "section": "4 Schedule and Logistics",
-    "text": "4 Schedule and Logistics\n\n\n\n\n\n\nImportant\n\n\n\nNote: This schedule is subject to change as the course progresses. Announcements will be made via Moodle. The latest version of the syllabus will be made available here.\n\n\n\n\n\n\n\n\n\n\n\n#\nWeek\nDate\nTopic\n\n\n\n\n1\n38\n19.09.\nIntroduction and the meaning of ‘development’\n\n\n2\n39\n26.09. (digital)\nMeasuring development\n\n\n\n40\n03.10.\nNo lecture (Tag der deutschen Einheit)\n\n\n3\n41\n10.10.\nHuman Development and the Capabilities Approach\n\n\n4\n42\n17.10. (digital)\nClassical and Neoclassical Growth Models\n\n\n\n43\n24.10.\nNo lecture (reading week)\n\n\n\n44\n31.10.\nNo lecture (Reformationstag)\n\n\n5\n45\n07.11.\nInstitutional economics and Development\n\n\n6\n46\n14.11.\nMarxist and Dependency Theories of Development\n\n\n7\n47\n21.11. (digital)\nTechnology, Innovation, and Trade-Led Development\n\n\n8\n48.\n28.11.\nSustainable Development, Environmental Limits, and Degrowth\n\n\n9\n49\n05.12.\nCurrent methodological trends in development economics\n\n\n10\n50\n12.12.\nSummary and open questions\n\n\n\n\n\n\n\n\n\nWarningExam Dates\n\n\n\n\nFirst Exam: December 16, 2025, 10:00 – 12:00\nSecond Exam: February 26, 2026, 10:00 – 12:00",
-    "crumbs": [
-      "🗓️ Material",
-      "Seminar Description"
-    ]
-  },
-  {
-    "objectID": "content/material/SeminarDescription.html#evaluation-and-assessment",
-    "href": "content/material/SeminarDescription.html#evaluation-and-assessment",
-    "title": "Development Economics",
-    "section": "5 Evaluation and Assessment",
-    "text": "5 Evaluation and Assessment\n\n5.1 Final Exam\nThe course evaluation is based on a final exam at the end of the semester.\n\n\n5.2 Admission Requirements\n\nTo be admitted to the final exam, students must pass the essay take home assigned during the semester.\nThe essay take home is a 1000 words essay that must be completed at home independenly, and will be graded pass or fail\n\n\n\n\n\n\n\nTipStudy Recommendations\n\n\n\nI strongly recommend that you spread your study time fairly evenly throughout the semester. It will save you time and effort if you study and practice constantly, not just right before the exam.\n\n\n\n\n\n\n\n\n\nTipContact Information\n\n\n\nFor questions regarding the course content or logistics, please use the Moodle discussion forums. For more personal questions consider visiting my office hours.",
-    "crumbs": [
-      "🗓️ Material",
-      "Seminar Description"
-    ]
-  },
-  {
-    "objectID": "content/material/session_01.html",
-    "href": "content/material/session_01.html",
-    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
-    "section": "",
-    "text": "In this introductory lecture we discuss four “grand theories” that all give different answers to the question of “What is development?”. As we will see throughout this course, the fundamental ideas of these four approaches continue to shape - implicitly or explicitly - the discourses about the rights and wrongs of development policy.",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 01"
-    ]
-  },
-  {
-    "objectID": "content/material/session_01.html#abstract",
-    "href": "content/material/session_01.html#abstract",
-    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
-    "section": "",
-    "text": "In this introductory lecture we discuss four “grand theories” that all give different answers to the question of “What is development?”. As we will see throughout this course, the fundamental ideas of these four approaches continue to shape - implicitly or explicitly - the discourses about the rights and wrongs of development policy.",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 01"
-    ]
-  },
-  {
-    "objectID": "content/material/session_01.html#lecture-slides",
-    "href": "content/material/session_01.html#lecture-slides",
-    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
-    "section": "🖥️ Lecture Slides",
-    "text": "🖥️ Lecture Slides\nEither click on the slide area below or click here to download the slides.",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 01"
-    ]
-  },
-  {
-    "objectID": "content/material/session_01.html#follow-up-reading",
-    "href": "content/material/session_01.html#follow-up-reading",
-    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
-    "section": "📚 Follow-up Reading",
-    "text": "📚 Follow-up Reading\n\nSnapshot of the Human Development Report (2024)\nChang (2011)\nChapter 1 in Escobar (1995)\n\n\n🏆 Further readings\n\nChapter 1 in Todaro and Smith (2020)\nChapter 1 in De Janvry and Sadoulet (2021)",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 01"
-    ]
-  },
-  {
-    "objectID": "content/material/session_01.html#coursework",
-    "href": "content/material/session_01.html#coursework",
-    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
-    "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n\nAdd your thoughts on the following questions to the Notepad on Moodle:\n\nWhat do you remember as the key message of the four theories/approaches introduced?\nWhat kind of socio-ecological challenges come to your attention or are obscured if you take one of the perspectives?\nWhat are aspects that you particularly like/disagree with?\n\nIf you have questions or problems, please post them in the Moodle forum",
-    "crumbs": [
-      "🗓️ Material",
-      "Session 01"
-    ]
+    "objectID": "content/material/session_03_interactive-exercise.html#group-notes-optional",
+    "href": "content/material/session_03_interactive-exercise.html#group-notes-optional",
+    "title": "Interactive Exercise: Building Your Capabilities List",
+    "section": "Group Notes (optional)",
+    "text": "Group Notes (optional)\nCapabilities that appeared on multiple lists:\n\n  \n  \n  \n\nCapabilities that were controversial or unique:\n\n  \n  \n  \n\nOur group’s position on universalism:\n☐ There should be a universal list for all countries\n☐ Each country/society should decide for itself\n☐ We couldn’t agree / We’re split"
   },
   {
     "objectID": "content/material/session_03.html",
@@ -492,7 +315,7 @@
     "href": "content/material/session_03.html#coursework",
     "title": "🗓️ Session 3: Human Development and the Capabilities Approach",
     "section": "✍️ Coursework",
-    "text": "✍️ Coursework\n\n\n\n\n\n\nTipOptional Exercises\n\n\n\n\n\nHere are some additinal exercises I suggest for a recap of the session and exam preparation. If questions emerge, feel free to post on the Moodle forum.\n\nExercise 1: HDI Discrepancy Analysis (350-400 words)\nCompare HDI rankings with GDP per capita rankings for 10 countries of your choice using the UNDP database.\n\nIdentify the 3 biggest positive discrepancies (countries ranking higher on HDI than GDP)\nIdentify the 3 biggest negative discrepancies (countries ranking lower on HDI than GDP)\nExplain these differences using capabilities theory concepts (functionings, conversion factors, instrumental freedoms)\n\n\n\nExercise 2: Capability Assessment (400 words)\nChoose a specific development challenge you’re familiar with (e.g., urban slums, rural education access, youth unemployment, refugee integration). Analyze it through the capabilities lens:\n\nWhich functionings are people unable to achieve?\nWhat conversion factors (personal, social, environmental) are at play?\nWhich of Sen’s five instrumental freedoms are lacking?\nWhat would a capability-enhancing policy look like?\n\n\n\nExercise 3: The Sen-Nussbaum Debate (300-350 words)\nReflect on the interactive exercise from class:\n\nInteractive Exercise Follow-Up\n\n\n\n\n\nIf you have questions or problems, please post them in the Moodle forum.",
+    "text": "✍️ Coursework\n\n\n\n\n\n\nTipOptional Exercises\n\n\n\n\n\nHere are some additional exercises I suggest for a recap of the session and exam preparation. If questions emerge, feel free to post on the Moodle forum.\n\nExercise 1: HDI Discrepancy Analysis (350-400 words)\nCompare HDI rankings with GDP per capita rankings for 10 countries of your choice using the UNDP database.\n\nIdentify the 3 biggest positive discrepancies (countries ranking higher on HDI than GDP)\nIdentify the 3 biggest negative discrepancies (countries ranking lower on HDI than GDP)\nExplain these differences using capabilities theory concepts (functionings, conversion factors, instrumental freedoms)\n\n\n\nExercise 2: Capability Assessment (400 words)\nChoose a specific development challenge you’re familiar with (e.g., urban slums, rural education access, youth unemployment, refugee integration). Analyze it through the capabilities lens:\n\nWhich functionings are people unable to achieve?\nWhat conversion factors (personal, social, environmental) are at play?\nWhich of Sen’s five instrumental freedoms are lacking?\nWhat would a capability-enhancing policy look like?\n\n\n\nExercise 3: The Sen-Nussbaum Debate (300-350 words)\nReflect on the interactive exercise from class:\n\nInteractive Exercise Follow-Up\n\n\n\n\n\nIf you have questions or problems, please post them in the Moodle forum.",
     "crumbs": [
       "🗓️ Material",
       "Session 03"
@@ -521,38 +344,366 @@
     ]
   },
   {
-    "objectID": "content/material/session_03_interactive-exercise.html",
-    "href": "content/material/session_03_interactive-exercise.html",
-    "title": "Interactive Exercise: Building Your Capabilities List",
+    "objectID": "content/material/session_01.html",
+    "href": "content/material/session_01.html",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
     "section": "",
-    "text": "Imagine you are advising the United Nations on how to define and measure human development globally.\nYour challenge: Create a list of 5-7 capabilities or freedoms that you believe are essential for a dignified human life."
+    "text": "In this introductory lecture we discuss four “grand theories” that all give different answers to the question of “What is development?”. As we will see throughout this course, the fundamental ideas of these four approaches continue to shape - implicitly or explicitly - the discourses about the rights and wrongs of development policy.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 01"
+    ]
   },
   {
-    "objectID": "content/material/session_03_interactive-exercise.html#instructions",
-    "href": "content/material/session_03_interactive-exercise.html#instructions",
-    "title": "Interactive Exercise: Building Your Capabilities List",
-    "section": "Instructions",
-    "text": "Instructions\nThink carefully about what makes a life truly human and dignified. What should every person be able to do or be?\nAs you create your list, consider:\n\nWhat does every person need to be able to do or be?\nWhich capabilities are most fundamental to you?\nAre some capabilities more important than others?\n\nFor each capability you list, also indicate: Do you think this should be guaranteed everywhere as a universal right, or should different societies/cultures decide differently about this?\n\nYour Capabilities List\nList 5-7 capabilities you consider essential:\n\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific\n  \n☐ Should be a universal right ☐ Might be culturally specific"
+    "objectID": "content/material/session_01.html#abstract",
+    "href": "content/material/session_01.html#abstract",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
+    "section": "",
+    "text": "In this introductory lecture we discuss four “grand theories” that all give different answers to the question of “What is development?”. As we will see throughout this course, the fundamental ideas of these four approaches continue to shape - implicitly or explicitly - the discourses about the rights and wrongs of development policy.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 01"
+    ]
   },
   {
-    "objectID": "content/material/session_03_interactive-exercise.html#instructions-1",
-    "href": "content/material/session_03_interactive-exercise.html#instructions-1",
-    "title": "Interactive Exercise: Building Your Capabilities List",
-    "section": "Instructions",
-    "text": "Instructions\nForm groups of 3-4 students and share your individual lists."
+    "objectID": "content/material/session_01.html#lecture-slides",
+    "href": "content/material/session_01.html#lecture-slides",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
+    "section": "🖥️ Lecture Slides",
+    "text": "🖥️ Lecture Slides\nEither click on the slide area below or click here to download the slides.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 01"
+    ]
   },
   {
-    "objectID": "content/material/session_03_interactive-exercise.html#discussion-questions",
-    "href": "content/material/session_03_interactive-exercise.html#discussion-questions",
-    "title": "Interactive Exercise: Building Your Capabilities List",
-    "section": "Discussion Questions",
-    "text": "Discussion Questions\nDiscuss the following in your group:\n\nWhere do you agree? Which capabilities appear on most or all lists?\nWhere do you disagree? Which capabilities are controversial in your group?\nThe big question: Should there be a universal, mandatory list that applies to all countries? Or should each society/country decide for itself which capabilities matter most?"
+    "objectID": "content/material/session_01.html#follow-up-reading",
+    "href": "content/material/session_01.html#follow-up-reading",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
+    "section": "📚 Follow-up Reading",
+    "text": "📚 Follow-up Reading\n\nSnapshot of the Human Development Report (2024)\nChang (2011)\nChapter 1 in Escobar (1995)\n\n\n🏆 Further readings\n\nChapter 1 in Todaro and Smith (2020)\nChapter 1 in De Janvry and Sadoulet (2021)",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 01"
+    ]
   },
   {
-    "objectID": "content/material/session_03_interactive-exercise.html#group-notes-optional",
-    "href": "content/material/session_03_interactive-exercise.html#group-notes-optional",
-    "title": "Interactive Exercise: Building Your Capabilities List",
-    "section": "Group Notes (optional)",
-    "text": "Group Notes (optional)\nCapabilities that appeared on multiple lists:\n\n  \n  \n  \n\nCapabilities that were controversial or unique:\n\n  \n  \n  \n\nOur group’s position on universalism:\n☐ There should be a universal list for all countries\n☐ Each country/society should decide for itself\n☐ We couldn’t agree / We’re split"
+    "objectID": "content/material/session_01.html#coursework",
+    "href": "content/material/session_01.html#coursework",
+    "title": "🗓️ Session 1: Introduction and the meaning of ‘development’",
+    "section": "✍️ Coursework",
+    "text": "✍️ Coursework\n\nAdd your thoughts on the following questions to the Notepad on Moodle:\n\nWhat do you remember as the key message of the four theories/approaches introduced?\nWhat kind of socio-ecological challenges come to your attention or are obscured if you take one of the perspectives?\nWhat are aspects that you particularly like/disagree with?\n\nIf you have questions or problems, please post them in the Moodle forum",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 01"
+    ]
+  },
+  {
+    "objectID": "content/material/SeminarDescription.html",
+    "href": "content/material/SeminarDescription.html",
+    "title": "Development Economics",
+    "section": "",
+    "text": "You will know the most influential theories about the determinants of socio-economic development. You will be able to identify and reflect on the ideas of ‘progress’ and ‘good life’ underlying these theories. Moreover, you will learn to reproduce and evaluate the common patterns of argumentation on the relationship between ‘development’, ‘economic growth’ and ‘planetary boundaries’.",
+    "crumbs": [
+      "🗓️ Material",
+      "Seminar Description"
+    ]
+  },
+  {
+    "objectID": "content/material/SeminarDescription.html#overall-goal-of-the-course",
+    "href": "content/material/SeminarDescription.html#overall-goal-of-the-course",
+    "title": "Development Economics",
+    "section": "",
+    "text": "You will know the most influential theories about the determinants of socio-economic development. You will be able to identify and reflect on the ideas of ‘progress’ and ‘good life’ underlying these theories. Moreover, you will learn to reproduce and evaluate the common patterns of argumentation on the relationship between ‘development’, ‘economic growth’ and ‘planetary boundaries’.",
+    "crumbs": [
+      "🗓️ Material",
+      "Seminar Description"
+    ]
+  },
+  {
+    "objectID": "content/material/SeminarDescription.html#learning-goals",
+    "href": "content/material/SeminarDescription.html#learning-goals",
+    "title": "Development Economics",
+    "section": "2 Learning Goals",
+    "text": "2 Learning Goals\nUpon completion of this seminar, you will be able to:\nExpertise:\n\nDefine and critically evaluate the most important concepts of (sustainable) economic development and commonly used development indicators\nCritically question and assess different approaches to defining and measuring development\nEvaluate policy measures in terms of their expected impact on economic development and identify their underlying theoretical foundations\n\nMethodological Competence:\n\nIndependently collect development data from publicly available sources and use it to analyze determinants and implications of economic development\nIdentify and evaluate the theories underlying development programs and policies\nApply both empirical and theoretical methods from development economics to analyze development-related problems and critically assess them\n\nSocial and Personal Skills:\n\nCritically question common notions of ‘development’ and articulate and justify your own ideas about appropriate definitions and measurements of economic development\nDescribe current debates on development policy and take well-founded positions on concrete development policy measures\nIdentify the data necessary to answer development theory questions and, when needed, acquire and analyze this data yourself while explaining your findings",
+    "crumbs": [
+      "🗓️ Material",
+      "Seminar Description"
+    ]
+  },
+  {
+    "objectID": "content/material/SeminarDescription.html#course-information",
+    "href": "content/material/SeminarDescription.html#course-information",
+    "title": "Development Economics",
+    "section": "3 Course Information",
+    "text": "3 Course Information\n\n\n\n3.1 Prerequisites\nThe lecture is an elective in the third or fifth semester. While there are no formal prerequisites, successful completion of the Economics I and II modules is strongly recommended. You also benefit from having completed the course “Applied Data Science”.\n\n\n3.2 Course Details\n\nCredits: 5 CP (150 total hours)\nLecture Time: 15 hours (10 × 1.5 hours)\nSelf-Study: 135 hours\nLocation: MAD, room 024\n\n\n\n\n3.3 Course Resources\n\nMoodle Room: 16258\nMoodle Password: DevEcon25\nCourse homepage: developmenteconomics25fall.netlify.app\n\n\n\n3.4 Recommended Study Schedule\n\nTime Horizon: September 12 - December 12\nDaily Study: about 1.5 hours (7 days/week)\nWeekday Study: about 2 hours (5 days/week)",
+    "crumbs": [
+      "🗓️ Material",
+      "Seminar Description"
+    ]
+  },
+  {
+    "objectID": "content/material/SeminarDescription.html#schedule-and-logistics",
+    "href": "content/material/SeminarDescription.html#schedule-and-logistics",
+    "title": "Development Economics",
+    "section": "4 Schedule and Logistics",
+    "text": "4 Schedule and Logistics\n\n\n\n\n\n\nImportant\n\n\n\nNote: This schedule is subject to change as the course progresses. Announcements will be made via Moodle. The latest version of the syllabus will be made available here.\n\n\n\n\n\n\n\n\n\n\n\n#\nWeek\nDate\nTopic\n\n\n\n\n1\n38\n19.09.\nIntroduction and the meaning of ‘development’\n\n\n2\n39\n26.09. (digital)\nMeasuring development\n\n\n\n40\n03.10.\nNo lecture (Tag der deutschen Einheit)\n\n\n3\n41\n10.10.\nHuman Development and the Capabilities Approach\n\n\n4\n42\n17.10. (digital)\nClassical and Neoclassical Growth Models\n\n\n\n43\n24.10.\nNo lecture (reading week)\n\n\n\n44\n31.10.\nNo lecture (Reformationstag)\n\n\n5\n45\n07.11.\nInstitutional economics and Development\n\n\n6\n46\n14.11.\nMarxist and Dependency Theories of Development\n\n\n7\n47\n21.11. (digital)\nTechnology, Innovation, and Trade-Led Development\n\n\n8\n48.\n28.11.\nSustainable Development, Environmental Limits, and Degrowth\n\n\n9\n49\n05.12.\nCurrent methodological trends in development economics\n\n\n10\n50\n12.12.\nSummary and open questions\n\n\n\n\n\n\n\n\n\nWarningExam Dates\n\n\n\n\nFirst Exam: December 16, 2025, 10:00 – 12:00\nSecond Exam: February 26, 2026, 10:00 – 12:00",
+    "crumbs": [
+      "🗓️ Material",
+      "Seminar Description"
+    ]
+  },
+  {
+    "objectID": "content/material/SeminarDescription.html#evaluation-and-assessment",
+    "href": "content/material/SeminarDescription.html#evaluation-and-assessment",
+    "title": "Development Economics",
+    "section": "5 Evaluation and Assessment",
+    "text": "5 Evaluation and Assessment\n\n5.1 Final Exam\nThe course evaluation is based on a final exam at the end of the semester.\n\n\n5.2 Admission Requirements\n\nTo be admitted to the final exam, students must pass the essay take home assigned during the semester.\nThe essay take home is a 1000 words essay that must be completed at home independenly, and will be graded pass or fail\n\n\n\n\n\n\n\nTipStudy Recommendations\n\n\n\nI strongly recommend that you spread your study time fairly evenly throughout the semester. It will save you time and effort if you study and practice constantly, not just right before the exam.\n\n\n\n\n\n\n\n\n\nTipContact Information\n\n\n\nFor questions regarding the course content or logistics, please use the Moodle discussion forums. For more personal questions consider visiting my office hours.",
+    "crumbs": [
+      "🗓️ Material",
+      "Seminar Description"
+    ]
+  },
+  {
+    "objectID": "content/index.html",
+    "href": "content/index.html",
+    "title": "Development Economics",
+    "section": "",
+    "text": "📍 Lecture\n\nFridays 09:15-10:45 in MAD (room 024)\n\nPlease make sure to check out the most recent version of the seminar timetable. The most recent version can be found here.\n\n\n📂 Material\nYou find an overview about all lecture materials, such as slides and reading lists here.\nEUF students can register for the Moodle course 16258 using the password DevEcon25.\n\n\n💌 Contact and discussion\nFor asking questions and starting discussions, please use the forum in Moodle.",
+    "crumbs": [
+      "🏢 Getting Started"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Development Economics",
+    "section": "",
+    "text": "📑 The course in brief\nFocus:\n\nDiscuss the concept of ‘development’ from an economic perspective\nLearn about different notions of development and their policy implications\nUnderstand how ‘development’ can be conceptualized, measured, and explained\n\nHow:\n\nThe course is lecture-based, with interactive elements\n\nPrerequisites:\n\nSuccessful completion of the Economics I and II modules is strongly recommended.\nYou also benefit from having completed the course “Applied Data Science”.\n\n\n\n🎯 Learning Objectives\nExpertise:\n\nDefine and critically evaluate the most important concepts of (sustainable) economic development and commonly used development indicators\nCritically question and assess different approaches to defining and measuring development\nEvaluate policy measures in terms of their expected impact on economic development and identify their underlying theoretical foundations\n\nMethodological Competence:\n\nIndependently collect development data from publicly available sources and use it to analyze determinants and implications of economic development\nIdentify and evaluate the theories underlying development programs and policies\nApply both empirical and theoretical methods from development economics to analyze development-related problems and critically assess them\n\nSocial and Personal Skills:\n\nCritically question common notions of ‘development’ and articulate and justify your own ideas about appropriate definitions and measurements of economic development\nDescribe current debates on development policy and take well-founded positions on concrete development policy measures\nIdentify the data necessary to answer development theory questions and, when needed, acquire and analyze this data yourself while explaining your findings\n\n\n The main course on moodle",
+    "crumbs": [
+      "🏠 Home"
+    ]
+  },
+  {
+    "objectID": "content/tutorials.html",
+    "href": "content/tutorials.html",
+    "title": "Tutorials",
+    "section": "",
+    "text": "Here I provide short tutorials or descriptions of relevant topics.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\n\n\n\n\n\n\n1: Important measures of development\n\n\n\n\n\n\nNo matching items",
+    "crumbs": [
+      "🗓️ Material",
+      "💻 Tutorials"
+    ]
+  },
+  {
+    "objectID": "content/material/index.html",
+    "href": "content/material/index.html",
+    "title": "Material overview",
+    "section": "",
+    "text": "Developing Economics Blog: a critical blog on development topics\nHierarchies of Development Podcast: critical podcast with very interesting, longer interviews about specific development topics\nOur World in Data: huge collection of data, together with a blog that is usually in the progressive-mainstream direction",
+    "crumbs": [
+      "🗓️ Material",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/material/index.html#general-references",
+    "href": "content/material/index.html#general-references",
+    "title": "Material overview",
+    "section": "",
+    "text": "Developing Economics Blog: a critical blog on development topics\nHierarchies of Development Podcast: critical podcast with very interesting, longer interviews about specific development topics\nOur World in Data: huge collection of data, together with a blog that is usually in the progressive-mainstream direction",
+    "crumbs": [
+      "🗓️ Material",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/material/index.html#session-specific-material",
+    "href": "content/material/index.html#session-specific-material",
+    "title": "Material overview",
+    "section": "🔖 Session-specific material",
+    "text": "🔖 Session-specific material\n\n\n\nSession\nTopic\n\n\n\n\n1\nFoundations and Contested Definition\n\n\n2\nMeasuring Development",
+    "crumbs": [
+      "🗓️ Material",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "content/material/session_02.html",
+    "href": "content/material/session_02.html",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "",
+    "text": "While the first session focused on the theory of development, this session focuses on its practice—or, more precisely, its measurement. We will discuss how the theoretical construct of “development” can be operationalized and measured. This includes a debate about the theory-ladenness of observations, i.e., the fact that every observation and every measurement is dependent on certain theories and theoretical commitments. Therefore, the topics of this session and the first session are inextricably linked: discussing the definition of development and its measurement must always go hand in hand.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 02"
+    ]
+  },
+  {
+    "objectID": "content/material/session_02.html#abstract",
+    "href": "content/material/session_02.html#abstract",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "",
+    "text": "While the first session focused on the theory of development, this session focuses on its practice—or, more precisely, its measurement. We will discuss how the theoretical construct of “development” can be operationalized and measured. This includes a debate about the theory-ladenness of observations, i.e., the fact that every observation and every measurement is dependent on certain theories and theoretical commitments. Therefore, the topics of this session and the first session are inextricably linked: discussing the definition of development and its measurement must always go hand in hand.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 02"
+    ]
+  },
+  {
+    "objectID": "content/material/session_02.html#lecture-slides",
+    "href": "content/material/session_02.html#lecture-slides",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "🖥️ Lecture Slides",
+    "text": "🖥️ Lecture Slides\nThere are no slides for this lecture.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 02"
+    ]
+  },
+  {
+    "objectID": "content/material/session_02.html#mandatory-reading",
+    "href": "content/material/session_02.html#mandatory-reading",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "📚 Mandatory Reading",
+    "text": "📚 Mandatory Reading\n\nTutorial on Important measures of development\n\n\n🏆 Further readings\n\nChapter 2 in Todaro and Smith (2020)",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 02"
+    ]
+  },
+  {
+    "objectID": "content/material/session_02.html#coursework-optional",
+    "href": "content/material/session_02.html#coursework-optional",
+    "title": "🗓️ Session 2: Measuring Development",
+    "section": "✍️ Coursework (optional)",
+    "text": "✍️ Coursework (optional)\n\nChoose three countries and compare their level of development using 3 different measures discussed in the tutorial\nIf you have questions or problems, please post them in the Moodle forum",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 02"
+    ]
+  },
+  {
+    "objectID": "content/material/session_03_interactive-exercise-followup.html",
+    "href": "content/material/session_03_interactive-exercise-followup.html",
+    "title": "Reflection Questions",
+    "section": "",
+    "text": "Post-Lecture Reflection\nNow that you’ve learned about Amartya Sen’s and Martha Nussbaum’s approaches to capabilities, reflect on the exercise we did at the beginning of class.\n\n\n\nQuestion 1: Comparing Your List to Nussbaum’s\nMartha Nussbaum’s 10 Central Capabilities:\n\nLife (being able to live a normal lifespan)\nBodily health (including nourishment, shelter)\nBodily integrity (freedom of movement, security, reproductive choice)\nSenses, imagination, and thought (education, expression)\nEmotions (being able to love, grieve, feel)\nPractical reason (being able to form conception of good life)\nAffiliation (being able to live with others, social respect)\nOther species (being able to live with concern for nature)\nPlay (being able to laugh, enjoy recreation)\nControl over one’s environment (political and material)\n\nYour reflection:\nWhat overlaps between your list and Nussbaum’s?\n  \n  \n  \nWhat did you include that Nussbaum didn’t?\n  \n  \n  \nWhat did Nussbaum include that you didn’t?\n  \n  \n  \n\n\n\nQuestion 2: The Sen-Nussbaum Debate\nWhich philosopher’s approach resonates more with you?\n☐ Martha Nussbaum’s approach: We need a clear, universal list to hold governments accountable and protect human dignity\n☐ Amartya Sen’s approach: Each society should democratically deliberate and decide which capabilities matter most in their context\n\n\n\nQuestion 3: Explain Your Position\nWhy does this approach resonate with you?\n  \n  \n  \n  \n  \nCan you think of a concrete example where your position would lead to different development policy than the alternative position?\n  \n  \n  \n  \n  \n\n\n\nQuestion 4: Critical Reflection\nWhat are potential problems or limitations with the approach you chose?\n  \n  \n  \n  \n\n\n\nQuestion 5: The Exercise Experience\nDid your thinking about universal versus context-specific approaches change during the class discussion? If so, how?\n  \n  \n  \n  \n\n\n\nAdditional resources and readings\nSee the course website\n\nOptional: Submit your reflections to the Moodle forum or keep them for your own study notes."
+  },
+  {
+    "objectID": "content/material/session_04-ExSolution.html",
+    "href": "content/material/session_04-ExSolution.html",
+    "title": "Testing Absolute Convergence: The Solow Model’s Key Prediction",
+    "section": "",
+    "text": "The Solow-Swan model makes one of the most striking predictions in development economics: absolute convergence. According to this model, poor countries should grow faster than rich countries because of diminishing returns to capital, leading all economies to eventually converge to the same level of income per capita.\nThis prediction emerges from two key assumptions:\n\nDiminishing returns to capital: As countries accumulate more capital, additional units of capital become less productive\nFactor mobility: Capital and technology can flow freely between countries\n\nThe mathematical intuition is straightforward: if the marginal product of capital is higher in poor countries (due to lower capital stock), then investment should flow there, generating higher growth rates until all countries reach the same steady state.\nBut does this prediction hold in reality? In this session’s exercise, you were asked to test the absolute convergence hypothesis using real-world data from the Penn World Tables. Below you find a possible solution for this exercise.\n\n\nWe test absolute convergence by estimating the following regression:\n\\[\\frac{1}{T} \\ln\\left(\\frac{y_{i,t+T}}{y_{i,t}}\\right) = \\alpha + \\beta \\ln(y_{i,t}) + \\epsilon_i\\]\nWhere:\n\n\\(\\frac{1}{T} \\ln\\left(\\frac{y_{i,t+T}}{y_{i,t}}\\right)\\) is the average annual growth rate of GDP per capita over period T\n\\(y_{i,t}\\) is initial GDP per capita\n\\(\\beta\\) is the convergence parameter\n\nAbsolute convergence occurs if \\(\\beta &lt; 0\\): countries with lower initial income grow faster."
+  },
+  {
+    "objectID": "content/material/session_04-ExSolution.html#the-convergence-test",
+    "href": "content/material/session_04-ExSolution.html#the-convergence-test",
+    "title": "Testing Absolute Convergence: The Solow Model’s Key Prediction",
+    "section": "",
+    "text": "We test absolute convergence by estimating the following regression:\n\\[\\frac{1}{T} \\ln\\left(\\frac{y_{i,t+T}}{y_{i,t}}\\right) = \\alpha + \\beta \\ln(y_{i,t}) + \\epsilon_i\\]\nWhere:\n\n\\(\\frac{1}{T} \\ln\\left(\\frac{y_{i,t+T}}{y_{i,t}}\\right)\\) is the average annual growth rate of GDP per capita over period T\n\\(y_{i,t}\\) is initial GDP per capita\n\\(\\beta\\) is the convergence parameter\n\nAbsolute convergence occurs if \\(\\beta &lt; 0\\): countries with lower initial income grow faster."
+  },
+  {
+    "objectID": "content/material/session_04-ExSolution.html#summary-of-the-findings",
+    "href": "content/material/session_04-ExSolution.html#summary-of-the-findings",
+    "title": "Testing Absolute Convergence: The Solow Model’s Key Prediction",
+    "section": "Summary of the findings",
+    "text": "Summary of the findings\nTable 3 provides a summary of our convergence test results.\n\n\nCode for the summary table\nsummary_results &lt;- data.frame(\n  Period = c(\"1960-1990\", \"1960-1990\", \"1990-2022\", \"1990-2022\"),\n  Sample = c(\"All Countries\", \"OECD Only\", \"All Countries\", \"OECD Only\"),\n  Beta = c(\n    round(results_60_90_all$estimate[2], 4),\n    round(results_60_90_oecd$estimate[2], 4),\n    round(results_90_22_all$estimate[2], 4),\n    round(results_90_22_oecd$estimate[2], 4)\n  ),\n  P_value = c(\n    round(results_60_90_all$p.value[2], 4),\n    round(results_60_90_oecd$p.value[2], 4),\n    round(results_90_22_all$p.value[2], 4),\n    round(results_90_22_oecd$p.value[2], 4)\n  ),\n  R_squared = c(\n    round(r_squared_60_90_all, 3),\n    round(r_squared_60_90_oecd, 3),\n    round(r_squared_90_22_all, 3),\n    round(r_squared_90_22_oecd, 3)\n  ),\n  Convergence = c(\n    ifelse(\n      results_60_90_all$estimate[2] &lt; 0 & results_60_90_all$p.value[2] &lt; 0.05, \n      \"Yes\", \"No\"),\n    ifelse(\n      results_60_90_oecd$estimate[2] &lt; 0 & results_60_90_oecd$p.value[2] &lt; 0.05, \n      \"Yes\", \"No\"),\n    ifelse(\n      results_90_22_all$estimate[2] &lt; 0 & results_90_22_all$p.value[2] &lt; 0.05, \n      \"Yes\", \"No\"),\n    ifelse(\n      results_90_22_oecd$estimate[2] &lt; 0 & results_90_22_oecd$p.value[2] &lt; 0.05, \n      \"Yes\", \"No\")\n  )\n)\n\nkable(summary_results, \n      caption = \"Summary of Convergence Test Results\",\n      col.names = c(\"Period\", \"Sample\", \"β (Convergence Parameter)\", \n                   \"P-value\", \"R²\", \"Significant Convergence?\"))\n\n\n\n\nTable 3: Summary of Convergence Test Results\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPeriod\nSample\nβ (Convergence Parameter)\nP-value\nR²\nSignificant Convergence?\n\n\n\n\n1960-1990\nAll Countries\n0.0003\n0.7822\n0.001\nNo\n\n\n1960-1990\nOECD Only\n-0.0021\n0.3597\n0.035\nNo\n\n\n1990-2022\nAll Countries\n-0.0027\n0.0581\n0.040\nNo\n\n\n1990-2022\nOECD Only\n-0.0050\n0.0078\n0.260\nYes\n\n\n\n\n\n\n\n\nSolow-Swan Prediction:\n\nAll countries should converge to the same income level due to diminishing returns to capital. Poor countries should grow faster than rich countries.\n\nOur Results:\n\nThe evidence for absolute convergence is mixed at best and depends heavily on the sample\nFor a global sample, absolute convergence is not happening\nThe group of OECD countries show stronger convergence patterns than the global sample, but only for the more recent time period the convergence parameter is significantly smaller than zero\nEven in this, the relationship is often weak (low R-squared values)\n\nWhy is it that absolute convergence is not happening as predicted by Solow-Swan? The great thing about such models is that we can systematically think about which of its assumptions might not hold:\n\nDifferent Technologies: Countries may not have access to the same production technologies\nInstitutional Differences: Legal systems, property rights, and governance quality vary dramatically\nHuman Capital: Education and skill levels differ substantially across countries\nSavings Rates: Cultural and policy differences affect investment rates\nTrade and Openness: Some countries are more integrated into global markets\nGeography and Natural Resources: Location and resource endowments matter\nPatterns of exploitation: Maybe the success of some countries comes at the expense of other countires that would then not converge for obvious reasons.\n\nThe weak evidence for absolute convergence has led economists to focus on conditional convergence - the idea that countries converge to their own steady states, which may differ based on:\n\nSavings rates\nPopulation growth rates\n\nInstitutional quality\nHuman capital levels\nTechnology access\n\nAs you see, this addresses some of the possible explanations above. Other economists, especially those working in Marxist and Dependency Theory traditions would be even more skeptical, and argue for a systematic relationship between development and underdevelopment, suggesting that studying conditional convergence is not a fruitful endeavor either."
+  },
+  {
+    "objectID": "content/material/session_04-ExSolution.html#policy-implications",
+    "href": "content/material/session_04-ExSolution.html#policy-implications",
+    "title": "Testing Absolute Convergence: The Solow Model’s Key Prediction",
+    "section": "Policy Implications",
+    "text": "Policy Implications\nThese findings have important implications for development policy:\n\nInvestment Alone is Insufficient: Simply increasing capital investment won’t automatically generate catch-up growth\nInstitutions Matter: Countries need good governance, property rights, and effective institutions\nHuman Capital is Crucial: Education and skill development are essential for technology adoption\nTechnology Transfer: Facilitating technology transfer and innovation is key for developing countries"
+  },
+  {
+    "objectID": "content/material/session_04.html",
+    "href": "content/material/session_04.html",
+    "title": "🗓️ Session 4: Classical and Neoclassical growth models",
+    "section": "",
+    "text": "This session examines how economists theorize the drivers of economic growth and their implications for development. We begin with classical perspectives from Smith, Ricardo, and Marx, who focused on systemic dynamics and the limits or contradictions of capitalist growth. We then explore the foundational Solow-Swan model, which introduced factor substitution and diminishing returns to explain stable growth and predict convergence between rich and poor countries.\nThrough growth accounting, we will see how technological change emerges as the primary driver of long-term growth, leading to endogenous growth theories that attempt to explain innovation and human capital accumulation. You will engage with empirical evidence on convergence and learn to critically evaluate what growth models reveal about development processes - and what important aspects they obscure, including distributional conflicts, institutional factors, and environmental constraints.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 04"
+    ]
+  },
+  {
+    "objectID": "content/material/session_04.html#abstract",
+    "href": "content/material/session_04.html#abstract",
+    "title": "🗓️ Session 4: Classical and Neoclassical growth models",
+    "section": "",
+    "text": "This session examines how economists theorize the drivers of economic growth and their implications for development. We begin with classical perspectives from Smith, Ricardo, and Marx, who focused on systemic dynamics and the limits or contradictions of capitalist growth. We then explore the foundational Solow-Swan model, which introduced factor substitution and diminishing returns to explain stable growth and predict convergence between rich and poor countries.\nThrough growth accounting, we will see how technological change emerges as the primary driver of long-term growth, leading to endogenous growth theories that attempt to explain innovation and human capital accumulation. You will engage with empirical evidence on convergence and learn to critically evaluate what growth models reveal about development processes - and what important aspects they obscure, including distributional conflicts, institutional factors, and environmental constraints.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 04"
+    ]
+  },
+  {
+    "objectID": "content/material/session_04.html#lecture-videos",
+    "href": "content/material/session_04.html#lecture-videos",
+    "title": "🗓️ Session 4: Classical and Neoclassical growth models",
+    "section": "🎥 Lecture videos",
+    "text": "🎥 Lecture videos\nThe four videos are shown below. Alternatively, you can access them via this playlist on Youtube.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 04"
+    ]
+  },
+  {
+    "objectID": "content/material/session_04.html#lecture-slides",
+    "href": "content/material/session_04.html#lecture-slides",
+    "title": "🗓️ Session 4: Classical and Neoclassical growth models",
+    "section": "🖥️ Lecture Slides",
+    "text": "🖥️ Lecture Slides\nEither click on the slide area below or click here to download the slides.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 04"
+    ]
+  },
+  {
+    "objectID": "content/material/session_04.html#exercise",
+    "href": "content/material/session_04.html#exercise",
+    "title": "🗓️ Session 4: Classical and Neoclassical growth models",
+    "section": "🎯 Exercise",
+    "text": "🎯 Exercise\n\nMore information on the convergence exercise provided here\nThe Penn World Tables\nPossible solution",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 04"
+    ]
+  },
+  {
+    "objectID": "content/material/session_04.html#mandatory-reading",
+    "href": "content/material/session_04.html#mandatory-reading",
+    "title": "🗓️ Session 4: Classical and Neoclassical growth models",
+    "section": "📚 Mandatory Reading",
+    "text": "📚 Mandatory Reading\n\nWorld Bank (2024) (Download PDF)",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 04"
+    ]
+  },
+  {
+    "objectID": "content/material/session_04.html#further-readings",
+    "href": "content/material/session_04.html#further-readings",
+    "title": "🗓️ Session 4: Classical and Neoclassical growth models",
+    "section": "🏆 Further Readings",
+    "text": "🏆 Further Readings\n\nSolow (1956) and Swan (1956)\n\nThe original papers introducing the fundamental growth model\n\nSolow (1957)\n\nThe original article on Solow’s empirical growth accounting\n\nAcemoglu (2017)\n\nWhile many expositios are technically very advanced, they give a good overview about the current state of the art of the mainstream approach; chapters 2 and 3 cover the Solow-Swan model in a lot of detail\n\n\n\nIf you have questions or problems, please post them in the Moodle forum.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 04"
+    ]
+  },
+  {
+    "objectID": "content/material/session_04.html#references",
+    "href": "content/material/session_04.html#references",
+    "title": "🗓️ Session 4: Classical and Neoclassical growth models",
+    "section": "References",
+    "text": "References\n\n\nAcemoglu, D. (2017) Introduction to Modern Economic Growth, Princeton; New York: Princeton University Press.\n\n\nSolow, R. M. (1956) “A Contribution to the Theory of Economic Growth,” The Quarterly Journal of Economics 70(1): 65, doi:10.2307/1884513.\n\n\nSolow, R. M. (1957) “Technical Change and the Aggregate Production Function,” The Review of Economics and Statistics 39(3): 312, doi:10.2307/1926047.\n\n\nSwan, T. W. (1956) “Economic Growth and Capital Accumulation,” Economic Record 32(2): 334–361, doi:10.1111/j.1475-4932.1956.tb00434.x.\n\n\nWorld Bank (2024) World Development Report 2024: The Middle-Income Trap, Washington, DC: World Bank, available at https://doi.org/10.1596/978-1-4648-2078-6.",
+    "crumbs": [
+      "🗓️ Material",
+      "Session 04"
+    ]
   }
 ]
