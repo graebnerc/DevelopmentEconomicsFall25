@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Session 5: Institutional Economics and Development"
+title: "🗓️ Session 5: Institutional Economics and Development I"
 date: "2025-11-07"
 date-modified: last-modified
 ---
@@ -7,8 +7,6 @@ date-modified: last-modified
 ## Abstract
 
 This session explores the "development puzzle" - why countries with similar geography, resources, and colonial heritage can have vastly different development outcomes. Institutional economics pretents to have found the answer! We examine two competing paradigms in institutional economics: Original Institutional Economics (OIE), with its evolutionary and critical approach, and New Institutional Economics (NIE), which integrates institutions into mainstream economic theory.
-
-The session focuses extensively on the influential work of Acemoglu, Johnson, and Robinson (AJR) on colonial origins of comparative development. We analyze their argument that colonial institutions - whether "extractive" or "inclusive" - created path-dependent legacies that explain today's global inequality. While examining the methodological innovations like instrumental variable estimation, we also critically assess the limitations of this approach, including its narrow definition of institutions, historical oversimplification, and potential ideological bias toward "Global Standard Institutions."
 
 ## 🖥️ Lecture Slides
 
@@ -22,13 +20,9 @@ Either click on the slide area below or click [here](slides/DevEcon25-L05.pdf) t
 
 ## 📚 Mandatory Reading
 
-- Chang [-@chang2010]
-- [Tutorial](../tutorials/WGI/index.qmd) on using the World Government Indicators as a measure of institutional quality
+- Hodgson [-@hodgson18]
 
 ## 🏆 Further Readings
-
-- Acemoglu et al. [-@acemoglu2001]
-  - Seminal paper on the colonial origins of comparative development, demonstrating how early institutions shaped long-term economic outcomes
 
 - Hodgson [-@hodgson2006]
   - Comprehensive discussion of the definition of an institution and its implications
@@ -42,11 +36,8 @@ Either click on the slide area below or click [here](slides/DevEcon25-L05.pdf) t
 ## ✍️ Coursework
 
 ::: {.callout-tip collapse="true"}
-## Optional Exercises
+## Optional Exercise
 
-Here are some exercises to deepen your understanding of institutional economics based on the lecture content:
-
-### Exercise 1: OIE vs. NIE Comparison (400 words)
 Compare and contrast Original Institutional Economics (OIE) and New Institutional Economics (NIE) approaches. Focus on:
 
 - Different conceptions of actors (socially embedded vs. rational optimizer)
@@ -54,35 +45,11 @@ Compare and contrast Original Institutional Economics (OIE) and New Institutiona
 - Treatment of power and inequality
 - Policy implications of each approach
 
-Which approach do you find more convincing for understanding development challenges, and why?
-
-### Exercise 2: Critical Analysis of AJR's Colonial Origins Theory (450 words)
-Evaluate Acemoglu, Johnson, and Robinson's argument about colonial origins of development:
-
-- Explain their distinction between "extractive" and "inclusive" institutions
-- Assess their methodological approach (settler mortality as instrumental variable)
-- Critically examine at least three limitations discussed in the lecture (narrow institutional definition, historical oversimplification, context-blindness, etc.)
-- Consider alternative explanations for contemporary development differences
-
-### Exercise 3: The Development Puzzle (350 words)
-Choose one of the country pairs mentioned in the "development puzzle" (North/South Korea, or find your own example of similar countries with different outcomes). Analyze:
-
-- How would AJR's institutional theory explain the differences?
-- What factors might their approach overlook (power relations, ongoing exploitation, geopolitics)?
-- How might an OIE perspective provide different insights?
+Which approach do you find more convincing for understanding development challenges, and why? (400 words)
 
 :::
 
 If you have questions or problems, please post them in the [Moodle](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258) forum.
-
-## 🔗 Additional Resources
-
-- **World Bank Worldwide Governance Indicators:** [https://www.worldbank.org/en/publication/worldwide-governance-indicators](https://www.worldbank.org/en/publication/worldwide-governance-indicators)
-  - Comprehensive database of institutional quality measures across countries
-
-- **Polity Project:** [https://www.systemicpeace.org/polityproject.html](https://www.systemicpeace.org/polityproject.html)
-  - Data on political institutions and democratic governance
-
 
 ## References
 
