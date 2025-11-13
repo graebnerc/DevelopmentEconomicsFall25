@@ -1,5 +1,5 @@
 ---
-title: "🗓️ Session 5: Institutional Economics and Development II"
+title: "🗓️ Session 6: Institutional Economics and Development II"
 date: "2025-11-14"
 date-modified: last-modified
 ---
