@@ -97,10 +97,9 @@ The latest version of the syllabus will be made available here.
 |   | 44   | 31.10. | No lecture (Reformationstag) |
 | 5 | 45   | 07.11. | Institutional economics and Development I |
 | 6 | 46   | 14.11. | Institutional economics and Development II |
-| 7 | 47   | 21.11. (digital) Marxist and Dependency Theories of Development | 
-| 8 | 48.  | 28.11. | Technology, Innovation, and Trade-Led Development |
-| 9 | 49   | 05.12. | Sustainable Development, Environmental Limits, and Degrowth |
-| 10 | 50  | 12.12. | Summary and open questions |
+| 7 | 48   | 28.11. | Marxist and Dependency Theories of Development |
+| 8 | 49   | 05.12. | Sustainable Development, Environmental Limits, and Degrowth |
+| 9 | 50   | 12.12. | Summary and open questions |
 
 ::: {.callout-warning}
 ### Exam Dates

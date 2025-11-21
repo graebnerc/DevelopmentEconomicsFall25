@@ -1,0 +1,60 @@
+---
+title: "🗓️ Session 7: Marxist Theories of Development"
+date: "2025-11-28"
+date-modified: last-modified
+---
+
+## Abstract
+
+This session explores development through Marxist and dependency theory perspectives, offering a critical alternative to mainstream growth models and institutional economics. We examine how Marxist analysis reframes the "development puzzle" not as a question of why some countries lag behind, but why development and underdevelopment are connected processes within a global capitalist system.
+
+The session progresses through three main analytical steps: First, we explore the historical transition from pre-capitalist to capitalist modes of production, emphasizing primitive accumulation and the violent transformation of social relations. Second, we analyze uneven development *within* capitalism, examining how core-periphery dynamics, unequal exchange, and world-systems structure create persistent global inequality. Finally, we engage with dependency theory's policy implications and contemporary relevance, connecting these debates to issues of trade, technology, and ecological sustainability that we'll explore in subsequent sessions.
+
+Unlike Sessions 4 (growth models) and 5 (institutional economics), which largely assume countries develop independently through similar processes, Marxist perspectives insist that development in some places is intrinsically linked to underdevelopment in others. This fundamentally challenges both the convergence predictions of neoclassical models and the "global standard institutions" approach of New Institutional Economics.
+
+## 🖥️ Lecture Slides
+
+Either click on the slide area below or click [here](slides/DevEcon25_L07_Marxism.pdf) to download the slides.
+
+```{=html}
+<div class="container" style="position: relative;overflow: hidden;width: 100%;padding-top: 56.25%;">
+<iframe src="slides/DevEcon25_L07_Marxism.pdf" style="position: absolute;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;" allowfullscreen loading="lazy"></iframe>
+</div>
+```
+
+## 🎯 Interactive and follow-up exercises
+
+- [Exercise 1: Comparing Marxism with NIE](/content/material/session_07_interactive-exercise-1.html)
+- [Exercise 2: Contemporary Patterns of Exploitation](/content/material/session_07_interactive-exercise-2.html)
+
+Both exercises contain elements to be done in class, as well as follow-up elements, which can help you to deepen to topics of this lecture.
+
+Below you also find two possible 'solutions', although it is entirely possible to come up with different assessments.
+
+- TBA
+
+## 📚 Mandatory Reading
+
+- Marx [-@marx1976], Chapter 26: The Secret of Primitive Accumulation (p. 873-876).
+  - The simple, straightforward and original introduction of the concept of primitive accumulation. The book is available [online](https://www.surplusvalue.org.au/Marxism/Capital%20-%20Vol.%201%20Penguin.pdf).
+- Kvangraven [-@kvangraven2020]
+  - A nice overview over the research program of dependency theory
+
+## 🏆 Further Readings
+
+- Kvangraven [-@kvangraven2025] (available [here](https://ingridhk.com/wp-content/uploads/2025/11/epw_ingrid-harvold-kvangraven.pdf))
+  - A comment on the 2025 Nobel Prize in Economics from a Marxist perspective
+- Harvey [-@harvey2003]
+  - Influential concept from contemporary scholarship, arguing that primitive accumulation continues to operate, also within capitalist centers
+- [Developing Economics](https://developingeconomics.org/)
+  - An influential blog on development economics, with many contributions coming from a Marxist perspective.
+
+-------
+
+If you have questions or problems, please post them in the [Moodle](https://elearning.uni-flensburg.de/moodle/course/view.php?id=16258) forum.
+
+
+## References
+
+::: {#refs}
+:::
