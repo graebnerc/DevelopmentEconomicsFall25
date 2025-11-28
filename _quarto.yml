@@ -47,6 +47,8 @@ website:
            text: Session 06
          - href: content/material/session_07.qmd
            text: Session 07
+         - href: content/material/session_08.qmd
+           text: Session 08
          - href: content/tutorials.qmd
            text: "💻 Tutorials"
 
