@@ -31,6 +31,7 @@ Both exercises contain elements to be done in class, as well as follow-up elemen
 
 Below you also find two possible 'solutions', although it is entirely possible to come up with different assessments.
 
+- [Exercise 1](content/material/session_07_interactive-exercise-1-solution.html)
 - TBA
 
 ## 📚 Mandatory Reading
